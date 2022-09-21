@@ -1,3 +1,4 @@
+
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 @import 'typed';
 
@@ -15,9 +16,9 @@ body {
     background-color: rgb(25, 25, 25);
 }
 
-.typed {
-    color: rgba(255, 255, 255, .75);
-    @include typed("Developer", "Student", "Advocate");
+.website {
+    color: blueviolet;
+    @include typed("website", "career journey", "passions","adventures");
 
     &::before {
         font-weight: bold;
@@ -26,4 +27,9 @@ body {
     &::after {
         border-right-width: 2px;
     }
+}
+
+.intro {
+    color: rgba(255, 255, 255, .75);
+    @include typed("Hi! My name is Judy Wang and this is my ");
 }
