@@ -1,0 +1,291 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+/* Global */
+html {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+body {
+  height: calc(100vh - 8em);
+  padding: 4em;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Anonymous Pro", monospace;
+  background-color: rgb(25, 25, 25);
+}
+
+.typed {
+  color: rgba(255, 255, 255, 0.75);
+}
+.typed::before {
+  content: "​";
+  content: "​"/"Developer";
+  alt: "Developer";
+  white-space: break-spaces;
+  will-change: content;
+  animation: typed-0 13.32s linear 1s infinite forwards;
+}
+.typed::after {
+  content: "​";
+  position: relative;
+  display: inline-block;
+  padding-right: 0.1ch;
+  border-right: 1ch solid currentColor;
+  white-space: nowrap;
+  animation: typed-0-caret 0.75s linear 1s infinite forwards;
+}
+@keyframes typed-0 {
+  0%, 0.7497507508% {
+    content: "​D";
+    content: "​D"/"Developer";
+    alt: "Developer";
+  }
+  0.7507507508%, 1.5005015015% {
+    content: "​De";
+    content: "​De"/"Developer";
+    alt: "Developer";
+  }
+  1.5015015015%, 2.2512522523% {
+    content: "​Dev";
+    content: "​Dev"/"Developer";
+    alt: "Developer";
+  }
+  2.2522522523%, 3.002003003% {
+    content: "​Deve";
+    content: "​Deve"/"Developer";
+    alt: "Developer";
+  }
+  3.003003003%, 3.7527537538% {
+    content: "​Devel";
+    content: "​Devel"/"Developer";
+    alt: "Developer";
+  }
+  3.7537537538%, 4.5035045045% {
+    content: "​Develo";
+    content: "​Develo"/"Developer";
+    alt: "Developer";
+  }
+  4.5045045045%, 5.2542552553% {
+    content: "​Develop";
+    content: "​Develop"/"Developer";
+    alt: "Developer";
+  }
+  5.2552552553%, 6.005006006% {
+    content: "​Develope";
+    content: "​Develope"/"Developer";
+    alt: "Developer";
+  }
+  6.006006006%, 22.3713723724% {
+    content: "​Developer";
+    content: "​Developer"/"Developer";
+    alt: "Developer";
+  }
+  22.3723723724%, 22.971972973% {
+    content: "​Develope";
+    content: "​Develope"/"Developer";
+    alt: "Developer";
+  }
+  22.972972973%, 23.5725735736% {
+    content: "​Develop";
+    content: "​Develop"/"Developer";
+    alt: "Developer";
+  }
+  23.5735735736%, 24.1731741742% {
+    content: "​Develo";
+    content: "​Develo"/"Developer";
+    alt: "Developer";
+  }
+  24.1741741742%, 24.7737747748% {
+    content: "​Devel";
+    content: "​Devel"/"Developer";
+    alt: "Developer";
+  }
+  24.7747747748%, 25.3743753754% {
+    content: "​Deve";
+    content: "​Deve"/"Developer";
+    alt: "Developer";
+  }
+  25.3753753754%, 25.974975976% {
+    content: "​Dev";
+    content: "​Dev"/"Developer";
+    alt: "Developer";
+  }
+  25.975975976%, 26.5755765766% {
+    content: "​De";
+    content: "​De"/"Developer";
+    alt: "Developer";
+  }
+  26.5765765766%, 27.1761771772% {
+    content: "​D";
+    content: "​D"/"Developer";
+    alt: "Developer";
+  }
+  27.1771771772%, 34.6836846847% {
+    content: "​";
+    content: "​"/"Developer";
+    alt: "Developer";
+  }
+  34.6846846847%, 35.4344354354% {
+    content: "​S";
+    content: "​S"/"Developer";
+    alt: "Developer";
+  }
+  35.4354354354%, 36.1851861862% {
+    content: "​St";
+    content: "​St"/"Developer";
+    alt: "Developer";
+  }
+  36.1861861862%, 36.9359369369% {
+    content: "​Stu";
+    content: "​Stu"/"Developer";
+    alt: "Developer";
+  }
+  36.9369369369%, 37.6866876877% {
+    content: "​Stud";
+    content: "​Stud"/"Developer";
+    alt: "Developer";
+  }
+  37.6876876877%, 38.4374384384% {
+    content: "​Stude";
+    content: "​Stude"/"Developer";
+    alt: "Developer";
+  }
+  38.4384384384%, 39.1881891892% {
+    content: "​Studen";
+    content: "​Studen"/"Developer";
+    alt: "Developer";
+  }
+  39.1891891892%, 55.5545555556% {
+    content: "​Student";
+    content: "​Student"/"Developer";
+    alt: "Developer";
+  }
+  55.5555555556%, 56.1551561562% {
+    content: "​Studen";
+    content: "​Studen"/"Developer";
+    alt: "Developer";
+  }
+  56.1561561562%, 56.7557567568% {
+    content: "​Stude";
+    content: "​Stude"/"Developer";
+    alt: "Developer";
+  }
+  56.7567567568%, 57.3563573574% {
+    content: "​Stud";
+    content: "​Stud"/"Developer";
+    alt: "Developer";
+  }
+  57.3573573574%, 57.956957958% {
+    content: "​Stu";
+    content: "​Stu"/"Developer";
+    alt: "Developer";
+  }
+  57.957957958%, 58.5575585586% {
+    content: "​St";
+    content: "​St"/"Developer";
+    alt: "Developer";
+  }
+  58.5585585586%, 59.1581591592% {
+    content: "​S";
+    content: "​S"/"Developer";
+    alt: "Developer";
+  }
+  59.1591591592%, 66.6656666667% {
+    content: "​";
+    content: "​"/"Developer";
+    alt: "Developer";
+  }
+  66.6666666667%, 67.4164174174% {
+    content: "​A";
+    content: "​A"/"Developer";
+    alt: "Developer";
+  }
+  67.4174174174%, 68.1671681682% {
+    content: "​Ad";
+    content: "​Ad"/"Developer";
+    alt: "Developer";
+  }
+  68.1681681682%, 68.9179189189% {
+    content: "​Adv";
+    content: "​Adv"/"Developer";
+    alt: "Developer";
+  }
+  68.9189189189%, 69.6686696697% {
+    content: "​Advo";
+    content: "​Advo"/"Developer";
+    alt: "Developer";
+  }
+  69.6696696697%, 70.4194204204% {
+    content: "​Advoc";
+    content: "​Advoc"/"Developer";
+    alt: "Developer";
+  }
+  70.4204204204%, 71.1701711712% {
+    content: "​Advoca";
+    content: "​Advoca"/"Developer";
+    alt: "Developer";
+  }
+  71.1711711712%, 71.9209219219% {
+    content: "​Advocat";
+    content: "​Advocat"/"Developer";
+    alt: "Developer";
+  }
+  71.9219219219%, 88.2872882883% {
+    content: "​Advocate";
+    content: "​Advocate"/"Developer";
+    alt: "Developer";
+  }
+  88.2882882883%, 88.8878888889% {
+    content: "​Advocat";
+    content: "​Advocat"/"Developer";
+    alt: "Developer";
+  }
+  88.8888888889%, 89.4884894895% {
+    content: "​Advoca";
+    content: "​Advoca"/"Developer";
+    alt: "Developer";
+  }
+  89.4894894895%, 90.0890900901% {
+    content: "​Advoc";
+    content: "​Advoc"/"Developer";
+    alt: "Developer";
+  }
+  90.0900900901%, 90.6896906907% {
+    content: "​Advo";
+    content: "​Advo"/"Developer";
+    alt: "Developer";
+  }
+  90.6906906907%, 91.2902912913% {
+    content: "​Adv";
+    content: "​Adv"/"Developer";
+    alt: "Developer";
+  }
+  91.2912912913%, 91.8908918919% {
+    content: "​Ad";
+    content: "​Ad"/"Developer";
+    alt: "Developer";
+  }
+  91.8918918919%, 92.4914924925% {
+    content: "​A";
+    content: "​A"/"Developer";
+    alt: "Developer";
+  }
+  92.4924924925%, 100% {
+    content: "​";
+    content: "​"/"Developer";
+    alt: "Developer";
+  }
+}
+@keyframes typed-0-caret {
+  75% {
+    border-color: transparent;
+  }
+}
+.typed::before {
+  font-weight: bold;
+}
+.typed::after {
+  border-right-width: 2px;
+}
+
+/*# sourceMappingURL=styles.css.map */
