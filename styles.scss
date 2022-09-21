@@ -1,0 +1,12 @@
+@import 'typed';
+
+.typed {
+    color: blueviolet;
+    @include typed("Developer", "Student", "Advocate");
+    &::before {
+        font-weight: bold;
+    }
+    &::after {
+        border-right-width: 2px;
+    }
+}
