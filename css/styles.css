@@ -14,416 +14,839 @@ body {
   background-color: rgb(25, 25, 25);
 }
 
-.website {
-  color: blueviolet;
-}
 .website::before {
   content: "​";
-  content: "​"/"website";
-  alt: "website";
+  content: "​"/"website.";
+  alt: "website.";
   white-space: break-spaces;
   will-change: content;
-  animation: typed-0 19.02s linear 1s infinite forwards;
+  animation: typed-0 9.87s linear 1s 2 forwards, typed-0-final 0.4s linear 20.74s 1 forwards;
+}
+@keyframes typed-0-final {
+  0%, 12.5% {
+    content: "​w";
+    content: "​w"/"website.";
+    alt: "website.";
+  }
+  12.501%, 25% {
+    content: "​we";
+    content: "​we"/"website.";
+    alt: "website.";
+  }
+  25.001%, 37.5% {
+    content: "​web";
+    content: "​web"/"website.";
+    alt: "website.";
+  }
+  37.501%, 50% {
+    content: "​webs";
+    content: "​webs"/"website.";
+    alt: "website.";
+  }
+  50.001%, 62.5% {
+    content: "​websi";
+    content: "​websi"/"website.";
+    alt: "website.";
+  }
+  62.501%, 75% {
+    content: "​websit";
+    content: "​websit"/"website.";
+    alt: "website.";
+  }
+  75.001%, 87.5% {
+    content: "​website";
+    content: "​website"/"website.";
+    alt: "website.";
+  }
+  87.501%, 100% {
+    content: "​website.";
+    content: "​website."/"website.";
+    alt: "website.";
+  }
 }
 .website::after {
   content: "​";
   position: relative;
   display: inline-block;
   padding-right: 0.1ch;
-  border-right: 1ch solid currentColor;
+  border-right: 2px solid currentColor;
   white-space: nowrap;
   animation: typed-0-caret 0.75s linear 1s infinite forwards;
 }
 @keyframes typed-0 {
-  0%, 0.5247623554% {
+  0%, 0.505585613% {
     content: "​w";
-    content: "​w"/"website";
-    alt: "website";
+    content: "​w"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  0.5257623554%, 1.0505247108% {
+  0.506585613%, 1.0121712259% {
     content: "​we";
-    content: "​we"/"website";
-    alt: "website";
+    content: "​we"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  1.0515247108%, 1.5762870662% {
+  1.0131712259%, 1.5187568389% {
     content: "​web";
-    content: "​web"/"website";
-    alt: "website";
+    content: "​web"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  1.5772870662%, 2.1020494217% {
+  1.5197568389%, 2.0253424519% {
     content: "​webs";
-    content: "​webs"/"website";
-    alt: "website";
+    content: "​webs"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  2.1030494217%, 2.6278117771% {
+  2.0263424519%, 2.5319280648% {
     content: "​websi";
-    content: "​websi"/"website";
-    alt: "website";
+    content: "​websi"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  2.6288117771%, 3.1535741325% {
+  2.5329280648%, 3.0385136778% {
     content: "​websit";
-    content: "​websit"/"website";
-    alt: "website";
+    content: "​websit"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  3.1545741325%, 14.6151934805% {
+  3.0395136778%, 3.5450992908% {
     content: "​website";
-    content: "​website"/"website";
-    alt: "website";
+    content: "​website"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  14.6161934805%, 15.0358033649% {
+  3.5460992908%, 14.5886656535% {
+    content: "​website.";
+    content: "​website."/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  14.5896656535%, 14.9939341439% {
+    content: "​website";
+    content: "​website"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  14.9949341439%, 15.3992026342% {
     content: "​websit";
-    content: "​websit"/"website";
-    alt: "website";
+    content: "​websit"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  15.0368033649%, 15.4564132492% {
+  15.4002026342%, 15.8044711246% {
     content: "​websi";
-    content: "​websi"/"website";
-    alt: "website";
+    content: "​websi"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  15.4574132492%, 15.8770231335% {
+  15.8054711246%, 16.209739615% {
     content: "​webs";
-    content: "​webs"/"website";
-    alt: "website";
+    content: "​webs"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  15.8780231335%, 16.2976330179% {
+  16.210739615%, 16.6150081054% {
     content: "​web";
-    content: "​web"/"website";
-    alt: "website";
+    content: "​web"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  16.2986330179%, 16.7182429022% {
+  16.6160081054%, 17.0202765957% {
     content: "​we";
-    content: "​we"/"website";
-    alt: "website";
+    content: "​we"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  16.7192429022%, 17.1388527865% {
+  17.0212765957%, 17.4255450861% {
     content: "​w";
-    content: "​w"/"website";
-    alt: "website";
+    content: "​w"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  17.1398527865%, 22.3964763407% {
+  17.4265450861%, 22.4914012158% {
     content: "​";
-    content: "​"/"website";
-    alt: "website";
+    content: "​"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  22.3974763407%, 22.9222386961% {
+  22.4924012158%, 22.9979868288% {
     content: "​c";
-    content: "​c"/"website";
-    alt: "website";
+    content: "​c"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  22.9232386961%, 23.4480010515% {
+  22.9989868288%, 23.5045724417% {
     content: "​ca";
-    content: "​ca"/"website";
-    alt: "website";
+    content: "​ca"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  23.4490010515%, 23.9737634069% {
+  23.5055724417%, 24.0111580547% {
     content: "​car";
-    content: "​car"/"website";
-    alt: "website";
+    content: "​car"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  23.9747634069%, 24.4995257624% {
+  24.0121580547%, 24.5177436677% {
     content: "​care";
-    content: "​care"/"website";
-    alt: "website";
+    content: "​care"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  24.5005257624%, 25.0252881178% {
+  24.5187436677%, 25.0243292806% {
     content: "​caree";
-    content: "​caree"/"website";
-    alt: "website";
+    content: "​caree"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  25.0262881178%, 25.5510504732% {
+  25.0253292806%, 25.5309148936% {
     content: "​career";
-    content: "​career"/"website";
-    alt: "website";
+    content: "​career"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  25.5520504732%, 26.0768128286% {
+  25.5319148936%, 26.0375005066% {
     content: "​career ";
-    content: "​career "/"website";
-    alt: "website";
+    content: "​career "/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  26.0778128286%, 26.602575184% {
+  26.0385005066%, 26.5440861196% {
     content: "​career j";
-    content: "​career j"/"website";
-    alt: "website";
+    content: "​career j"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  26.603575184%, 27.1283375394% {
+  26.5450861196%, 27.0506717325% {
     content: "​career jo";
-    content: "​career jo"/"website";
-    alt: "website";
+    content: "​career jo"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  27.1293375394%, 27.6540998948% {
+  27.0516717325%, 27.5572573455% {
     content: "​career jou";
-    content: "​career jou"/"website";
-    alt: "website";
+    content: "​career jou"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  27.6550998948%, 28.1798622503% {
+  27.5582573455%, 28.0638429585% {
     content: "​career jour";
-    content: "​career jour"/"website";
-    alt: "website";
+    content: "​career jour"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  28.1808622503%, 28.7056246057% {
+  28.0648429585%, 28.5704285714% {
     content: "​career journ";
-    content: "​career journ"/"website";
-    alt: "website";
+    content: "​career journ"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  28.7066246057%, 29.2313869611% {
+  28.5714285714%, 29.0770141844% {
     content: "​career journe";
-    content: "​career journe"/"website";
-    alt: "website";
+    content: "​career journe"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  29.2323869611%, 40.6930063091% {
+  29.0780141844%, 29.5835997974% {
     content: "​career journey";
-    content: "​career journey"/"website";
-    alt: "website";
+    content: "​career journey"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  40.6940063091%, 41.1136161935% {
+  29.5845997974%, 40.6271661601% {
+    content: "​career journey.";
+    content: "​career journey."/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  40.6281661601%, 41.0324346505% {
+    content: "​career journey";
+    content: "​career journey"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  41.0334346505%, 41.4377031408% {
     content: "​career journe";
-    content: "​career journe"/"website";
-    alt: "website";
+    content: "​career journe"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  41.1146161935%, 41.5342260778% {
+  41.4387031408%, 41.8429716312% {
     content: "​career journ";
-    content: "​career journ"/"website";
-    alt: "website";
+    content: "​career journ"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  41.5352260778%, 41.9548359621% {
+  41.8439716312%, 42.2482401216% {
     content: "​career jour";
-    content: "​career jour"/"website";
-    alt: "website";
+    content: "​career jour"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  41.9558359621%, 42.3754458465% {
+  42.2492401216%, 42.653508612% {
     content: "​career jou";
-    content: "​career jou"/"website";
-    alt: "website";
+    content: "​career jou"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  42.3764458465%, 42.7960557308% {
+  42.654508612%, 43.0587771023% {
     content: "​career jo";
-    content: "​career jo"/"website";
-    alt: "website";
+    content: "​career jo"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  42.7970557308%, 43.2166656151% {
+  43.0597771023%, 43.4640455927% {
     content: "​career j";
-    content: "​career j"/"website";
-    alt: "website";
+    content: "​career j"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  43.2176656151%, 43.6372754995% {
+  43.4650455927%, 43.8693140831% {
     content: "​career ";
-    content: "​career "/"website";
-    alt: "website";
+    content: "​career "/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  43.6382754995%, 44.0578853838% {
+  43.8703140831%, 44.2745825735% {
     content: "​career";
-    content: "​career"/"website";
-    alt: "website";
+    content: "​career"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  44.0588853838%, 44.4784952681% {
+  44.2755825735%, 44.6798510638% {
     content: "​caree";
-    content: "​caree"/"website";
-    alt: "website";
+    content: "​caree"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  44.4794952681%, 44.8991051525% {
+  44.6808510638%, 45.0851195542% {
     content: "​care";
-    content: "​care"/"website";
-    alt: "website";
+    content: "​care"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  44.9001051525%, 45.3197150368% {
+  45.0861195542%, 45.4903880446% {
     content: "​car";
-    content: "​car"/"website";
-    alt: "website";
+    content: "​car"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  45.3207150368%, 45.7403249211% {
+  45.4913880446%, 45.895656535% {
     content: "​ca";
-    content: "​ca"/"website";
-    alt: "website";
+    content: "​ca"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  45.7413249211%, 46.1609348055% {
+  45.896656535%, 46.3009250253% {
     content: "​c";
-    content: "​c"/"website";
-    alt: "website";
+    content: "​c"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  46.1619348055%, 51.4185583596% {
+  46.3019250253%, 51.366781155% {
     content: "​";
-    content: "​"/"website";
-    alt: "website";
+    content: "​"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  51.4195583596%, 51.944320715% {
+  51.367781155%, 51.873366768% {
     content: "​p";
-    content: "​p"/"website";
-    alt: "website";
+    content: "​p"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  51.945320715%, 52.4700830705% {
+  51.874366768%, 52.379952381% {
     content: "​pa";
-    content: "​pa"/"website";
-    alt: "website";
+    content: "​pa"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  52.4710830705%, 52.9958454259% {
+  52.380952381%, 52.8865379939% {
     content: "​pas";
-    content: "​pas"/"website";
-    alt: "website";
+    content: "​pas"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  52.9968454259%, 53.5216077813% {
+  52.8875379939%, 53.3931236069% {
     content: "​pass";
-    content: "​pass"/"website";
-    alt: "website";
+    content: "​pass"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  53.5226077813%, 54.0473701367% {
+  53.3941236069%, 53.8997092199% {
     content: "​passi";
-    content: "​passi"/"website";
-    alt: "website";
+    content: "​passi"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  54.0483701367%, 54.5731324921% {
+  53.9007092199%, 54.4062948328% {
     content: "​passio";
-    content: "​passio"/"website";
-    alt: "website";
+    content: "​passio"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  54.5741324921%, 55.0988948475% {
+  54.4072948328%, 54.9128804458% {
     content: "​passion";
-    content: "​passion"/"website";
-    alt: "website";
+    content: "​passion"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  55.0998948475%, 66.5605141956% {
+  54.9138804458%, 55.4194660588% {
     content: "​passions";
-    content: "​passions"/"website";
-    alt: "website";
+    content: "​passions"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  66.5615141956%, 66.9811240799% {
+  55.4204660588%, 66.4630324215% {
+    content: "​passions.";
+    content: "​passions."/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  66.4640324215%, 66.8683009119% {
+    content: "​passions";
+    content: "​passions"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  66.8693009119%, 67.2735694022% {
     content: "​passion";
-    content: "​passion"/"website";
-    alt: "website";
+    content: "​passion"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  66.9821240799%, 67.4017339642% {
+  67.2745694022%, 67.6788378926% {
     content: "​passio";
-    content: "​passio"/"website";
-    alt: "website";
+    content: "​passio"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  67.4027339642%, 67.8223438486% {
+  67.6798378926%, 68.084106383% {
     content: "​passi";
-    content: "​passi"/"website";
-    alt: "website";
+    content: "​passi"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  67.8233438486%, 68.2429537329% {
+  68.085106383%, 68.4893748734% {
     content: "​pass";
-    content: "​pass"/"website";
-    alt: "website";
+    content: "​pass"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  68.2439537329%, 68.6635636172% {
+  68.4903748734%, 68.8946433637% {
     content: "​pas";
-    content: "​pas"/"website";
-    alt: "website";
+    content: "​pas"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  68.6645636172%, 69.0841735016% {
+  68.8956433637%, 69.2999118541% {
     content: "​pa";
-    content: "​pa"/"website";
-    alt: "website";
+    content: "​pa"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  69.0851735016%, 69.5047833859% {
+  69.3009118541%, 69.7051803445% {
     content: "​p";
-    content: "​p"/"website";
-    alt: "website";
+    content: "​p"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  69.5057833859%, 74.7624069401% {
+  69.7061803445%, 74.7710364742% {
     content: "​";
-    content: "​"/"website";
-    alt: "website";
+    content: "​"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  74.7634069401%, 75.2881692955% {
+  74.7720364742%, 75.2776220871% {
     content: "​a";
-    content: "​a"/"website";
-    alt: "website";
+    content: "​a"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  75.2891692955%, 75.8139316509% {
+  75.2786220871%, 75.7842077001% {
     content: "​ad";
-    content: "​ad"/"website";
-    alt: "website";
+    content: "​ad"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  75.8149316509%, 76.3396940063% {
+  75.7852077001%, 76.2907933131% {
     content: "​adv";
-    content: "​adv"/"website";
-    alt: "website";
+    content: "​adv"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  76.3406940063%, 76.8654563617% {
+  76.2917933131%, 76.797378926% {
     content: "​adve";
-    content: "​adve"/"website";
-    alt: "website";
+    content: "​adve"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  76.8664563617%, 77.3912187171% {
+  76.798378926%, 77.303964539% {
     content: "​adven";
-    content: "​adven"/"website";
-    alt: "website";
+    content: "​adven"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  77.3922187171%, 77.9169810726% {
+  77.304964539%, 77.810550152% {
     content: "​advent";
-    content: "​advent"/"website";
-    alt: "website";
+    content: "​advent"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  77.9179810726%, 78.442743428% {
+  77.811550152%, 78.3171357649% {
     content: "​adventu";
-    content: "​adventu"/"website";
-    alt: "website";
+    content: "​adventu"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  78.443743428%, 78.9685057834% {
+  78.3181357649%, 78.8237213779% {
     content: "​adventur";
-    content: "​adventur"/"website";
-    alt: "website";
+    content: "​adventur"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  78.9695057834%, 79.4942681388% {
+  78.8247213779%, 79.3303069909% {
     content: "​adventure";
-    content: "​adventure"/"website";
-    alt: "website";
+    content: "​adventure"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  79.4952681388%, 90.9558874869% {
+  79.3313069909%, 79.8368926039% {
     content: "​adventures";
-    content: "​adventures"/"website";
-    alt: "website";
+    content: "​adventures"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  90.9568874869%, 91.3764973712% {
+  79.8378926039%, 90.8804589666% {
+    content: "​adventures.";
+    content: "​adventures."/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  90.8814589666%, 91.2857274569% {
+    content: "​adventures";
+    content: "​adventures"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  91.2867274569%, 91.6909959473% {
     content: "​adventure";
-    content: "​adventure"/"website";
-    alt: "website";
+    content: "​adventure"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  91.3774973712%, 91.7971072555% {
+  91.6919959473%, 92.0962644377% {
     content: "​adventur";
-    content: "​adventur"/"website";
-    alt: "website";
+    content: "​adventur"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  91.7981072555%, 92.2177171399% {
+  92.0972644377%, 92.5015329281% {
     content: "​adventu";
-    content: "​adventu"/"website";
-    alt: "website";
+    content: "​adventu"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  92.2187171399%, 92.6383270242% {
+  92.5025329281%, 92.9068014184% {
     content: "​advent";
-    content: "​advent"/"website";
-    alt: "website";
+    content: "​advent"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  92.6393270242%, 93.0589369085% {
+  92.9078014184%, 93.3120699088% {
     content: "​adven";
-    content: "​adven"/"website";
-    alt: "website";
+    content: "​adven"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  93.0599369085%, 93.4795467928% {
+  93.3130699088%, 93.7173383992% {
     content: "​adve";
-    content: "​adve"/"website";
-    alt: "website";
+    content: "​adve"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  93.4805467928%, 93.9001566772% {
+  93.7183383992%, 94.1226068896% {
     content: "​adv";
-    content: "​adv"/"website";
-    alt: "website";
+    content: "​adv"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  93.9011566772%, 94.3207665615% {
+  94.1236068896%, 94.5278753799% {
     content: "​ad";
-    content: "​ad"/"website";
-    alt: "website";
+    content: "​ad"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  94.3217665615%, 94.7413764458% {
+  94.5288753799%, 94.9331438703% {
     content: "​a";
-    content: "​a"/"website";
-    alt: "website";
+    content: "​a"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
-  94.7423764458%, 100% {
+  94.9341438703%, 100% {
     content: "​";
-    content: "​"/"website";
-    alt: "website";
+    content: "​"/"website.";
+    alt: "website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
   }
 }
 @keyframes typed-0-caret {
@@ -436,434 +859,6 @@ body {
 }
 .website::after {
   border-right-width: 2px;
-}
-
-.intro {
-  color: rgba(255, 255, 255, 0.75);
-}
-.intro::before {
-  content: "​";
-  content: "​"/"Hi! My name is Judy Wang and this is my ";
-  alt: "Hi! My name is Judy Wang and this is my ";
-  white-space: break-spaces;
-  will-change: content;
-  animation: typed-1 10.2s linear 1s infinite forwards;
-}
-.intro::after {
-  content: "​";
-  position: relative;
-  display: inline-block;
-  padding-right: 0.1ch;
-  border-right: 1ch solid currentColor;
-  white-space: nowrap;
-  animation: typed-1-caret 0.75s linear 1s infinite forwards;
-}
-@keyframes typed-1 {
-  0%, 0.9793921569% {
-    content: "​H";
-    content: "​H"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  0.9803921569%, 1.9597843137% {
-    content: "​Hi";
-    content: "​Hi"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  1.9607843137%, 2.9401764706% {
-    content: "​Hi!";
-    content: "​Hi!"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  2.9411764706%, 3.9205686275% {
-    content: "​Hi! ";
-    content: "​Hi! "/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  3.9215686275%, 4.9009607843% {
-    content: "​Hi! M";
-    content: "​Hi! M"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  4.9019607843%, 5.8813529412% {
-    content: "​Hi! My";
-    content: "​Hi! My"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  5.8823529412%, 6.861745098% {
-    content: "​Hi! My ";
-    content: "​Hi! My "/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  6.862745098%, 7.8421372549% {
-    content: "​Hi! My n";
-    content: "​Hi! My n"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  7.8431372549%, 8.8225294118% {
-    content: "​Hi! My na";
-    content: "​Hi! My na"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  8.8235294118%, 9.8029215686% {
-    content: "​Hi! My nam";
-    content: "​Hi! My nam"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  9.8039215686%, 10.7833137255% {
-    content: "​Hi! My name";
-    content: "​Hi! My name"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  10.7843137255%, 11.7637058824% {
-    content: "​Hi! My name ";
-    content: "​Hi! My name "/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  11.7647058824%, 12.7440980392% {
-    content: "​Hi! My name i";
-    content: "​Hi! My name i"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  12.7450980392%, 13.7244901961% {
-    content: "​Hi! My name is";
-    content: "​Hi! My name is"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  13.7254901961%, 14.7048823529% {
-    content: "​Hi! My name is ";
-    content: "​Hi! My name is "/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  14.7058823529%, 15.6852745098% {
-    content: "​Hi! My name is J";
-    content: "​Hi! My name is J"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  15.6862745098%, 16.6656666667% {
-    content: "​Hi! My name is Ju";
-    content: "​Hi! My name is Ju"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  16.6666666667%, 17.6460588235% {
-    content: "​Hi! My name is Jud";
-    content: "​Hi! My name is Jud"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  17.6470588235%, 18.6264509804% {
-    content: "​Hi! My name is Judy";
-    content: "​Hi! My name is Judy"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  18.6274509804%, 19.6068431373% {
-    content: "​Hi! My name is Judy ";
-    content: "​Hi! My name is Judy "/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  19.6078431373%, 20.5872352941% {
-    content: "​Hi! My name is Judy W";
-    content: "​Hi! My name is Judy W"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  20.5882352941%, 21.567627451% {
-    content: "​Hi! My name is Judy Wa";
-    content: "​Hi! My name is Judy Wa"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  21.568627451%, 22.5480196078% {
-    content: "​Hi! My name is Judy Wan";
-    content: "​Hi! My name is Judy Wan"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  22.5490196078%, 23.5284117647% {
-    content: "​Hi! My name is Judy Wang";
-    content: "​Hi! My name is Judy Wang"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  23.5294117647%, 24.5088039216% {
-    content: "​Hi! My name is Judy Wang ";
-    content: "​Hi! My name is Judy Wang "/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  24.5098039216%, 25.4891960784% {
-    content: "​Hi! My name is Judy Wang a";
-    content: "​Hi! My name is Judy Wang a"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  25.4901960784%, 26.4695882353% {
-    content: "​Hi! My name is Judy Wang an";
-    content: "​Hi! My name is Judy Wang an"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  26.4705882353%, 27.4499803922% {
-    content: "​Hi! My name is Judy Wang and";
-    content: "​Hi! My name is Judy Wang and"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  27.4509803922%, 28.430372549% {
-    content: "​Hi! My name is Judy Wang and ";
-    content: "​Hi! My name is Judy Wang and "/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  28.431372549%, 29.4107647059% {
-    content: "​Hi! My name is Judy Wang and t";
-    content: "​Hi! My name is Judy Wang and t"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  29.4117647059%, 30.3911568627% {
-    content: "​Hi! My name is Judy Wang and th";
-    content: "​Hi! My name is Judy Wang and th"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  30.3921568627%, 31.3715490196% {
-    content: "​Hi! My name is Judy Wang and thi";
-    content: "​Hi! My name is Judy Wang and thi"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  31.3725490196%, 32.3519411765% {
-    content: "​Hi! My name is Judy Wang and this";
-    content: "​Hi! My name is Judy Wang and this"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  32.3529411765%, 33.3323333333% {
-    content: "​Hi! My name is Judy Wang and this ";
-    content: "​Hi! My name is Judy Wang and this "/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  33.3333333333%, 34.3127254902% {
-    content: "​Hi! My name is Judy Wang and this i";
-    content: "​Hi! My name is Judy Wang and this i"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  34.3137254902%, 35.2931176471% {
-    content: "​Hi! My name is Judy Wang and this is";
-    content: "​Hi! My name is Judy Wang and this is"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  35.2941176471%, 36.2735098039% {
-    content: "​Hi! My name is Judy Wang and this is ";
-    content: "​Hi! My name is Judy Wang and this is "/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  36.2745098039%, 37.2539019608% {
-    content: "​Hi! My name is Judy Wang and this is m";
-    content: "​Hi! My name is Judy Wang and this is m"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  37.2549019608%, 38.2342941176% {
-    content: "​Hi! My name is Judy Wang and this is my";
-    content: "​Hi! My name is Judy Wang and this is my"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  38.2352941176%, 59.6068431373% {
-    content: "​Hi! My name is Judy Wang and this is my ";
-    content: "​Hi! My name is Judy Wang and this is my "/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  59.6078431373%, 60.3911568627% {
-    content: "​Hi! My name is Judy Wang and this is my";
-    content: "​Hi! My name is Judy Wang and this is my"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  60.3921568627%, 61.1754705882% {
-    content: "​Hi! My name is Judy Wang and this is m";
-    content: "​Hi! My name is Judy Wang and this is m"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  61.1764705882%, 61.9597843137% {
-    content: "​Hi! My name is Judy Wang and this is ";
-    content: "​Hi! My name is Judy Wang and this is "/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  61.9607843137%, 62.7440980392% {
-    content: "​Hi! My name is Judy Wang and this is";
-    content: "​Hi! My name is Judy Wang and this is"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  62.7450980392%, 63.5284117647% {
-    content: "​Hi! My name is Judy Wang and this i";
-    content: "​Hi! My name is Judy Wang and this i"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  63.5294117647%, 64.3127254902% {
-    content: "​Hi! My name is Judy Wang and this ";
-    content: "​Hi! My name is Judy Wang and this "/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  64.3137254902%, 65.0970392157% {
-    content: "​Hi! My name is Judy Wang and this";
-    content: "​Hi! My name is Judy Wang and this"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  65.0980392157%, 65.8813529412% {
-    content: "​Hi! My name is Judy Wang and thi";
-    content: "​Hi! My name is Judy Wang and thi"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  65.8823529412%, 66.6656666667% {
-    content: "​Hi! My name is Judy Wang and th";
-    content: "​Hi! My name is Judy Wang and th"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  66.6666666667%, 67.4499803922% {
-    content: "​Hi! My name is Judy Wang and t";
-    content: "​Hi! My name is Judy Wang and t"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  67.4509803922%, 68.2342941176% {
-    content: "​Hi! My name is Judy Wang and ";
-    content: "​Hi! My name is Judy Wang and "/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  68.2352941176%, 69.0186078431% {
-    content: "​Hi! My name is Judy Wang and";
-    content: "​Hi! My name is Judy Wang and"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  69.0196078431%, 69.8029215686% {
-    content: "​Hi! My name is Judy Wang an";
-    content: "​Hi! My name is Judy Wang an"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  69.8039215686%, 70.5872352941% {
-    content: "​Hi! My name is Judy Wang a";
-    content: "​Hi! My name is Judy Wang a"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  70.5882352941%, 71.3715490196% {
-    content: "​Hi! My name is Judy Wang ";
-    content: "​Hi! My name is Judy Wang "/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  71.3725490196%, 72.1558627451% {
-    content: "​Hi! My name is Judy Wang";
-    content: "​Hi! My name is Judy Wang"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  72.1568627451%, 72.9401764706% {
-    content: "​Hi! My name is Judy Wan";
-    content: "​Hi! My name is Judy Wan"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  72.9411764706%, 73.7244901961% {
-    content: "​Hi! My name is Judy Wa";
-    content: "​Hi! My name is Judy Wa"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  73.7254901961%, 74.5088039216% {
-    content: "​Hi! My name is Judy W";
-    content: "​Hi! My name is Judy W"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  74.5098039216%, 75.2931176471% {
-    content: "​Hi! My name is Judy ";
-    content: "​Hi! My name is Judy "/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  75.2941176471%, 76.0774313725% {
-    content: "​Hi! My name is Judy";
-    content: "​Hi! My name is Judy"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  76.0784313725%, 76.861745098% {
-    content: "​Hi! My name is Jud";
-    content: "​Hi! My name is Jud"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  76.862745098%, 77.6460588235% {
-    content: "​Hi! My name is Ju";
-    content: "​Hi! My name is Ju"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  77.6470588235%, 78.430372549% {
-    content: "​Hi! My name is J";
-    content: "​Hi! My name is J"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  78.431372549%, 79.2146862745% {
-    content: "​Hi! My name is ";
-    content: "​Hi! My name is "/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  79.2156862745%, 79.999% {
-    content: "​Hi! My name is";
-    content: "​Hi! My name is"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  80%, 80.7833137255% {
-    content: "​Hi! My name i";
-    content: "​Hi! My name i"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  80.7843137255%, 81.567627451% {
-    content: "​Hi! My name ";
-    content: "​Hi! My name "/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  81.568627451%, 82.3519411765% {
-    content: "​Hi! My name";
-    content: "​Hi! My name"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  82.3529411765%, 83.136254902% {
-    content: "​Hi! My nam";
-    content: "​Hi! My nam"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  83.137254902%, 83.9205686275% {
-    content: "​Hi! My na";
-    content: "​Hi! My na"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  83.9215686275%, 84.7048823529% {
-    content: "​Hi! My n";
-    content: "​Hi! My n"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  84.7058823529%, 85.4891960784% {
-    content: "​Hi! My ";
-    content: "​Hi! My "/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  85.4901960784%, 86.2735098039% {
-    content: "​Hi! My";
-    content: "​Hi! My"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  86.2745098039%, 87.0578235294% {
-    content: "​Hi! M";
-    content: "​Hi! M"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  87.0588235294%, 87.8421372549% {
-    content: "​Hi! ";
-    content: "​Hi! "/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  87.8431372549%, 88.6264509804% {
-    content: "​Hi!";
-    content: "​Hi!"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  88.6274509804%, 89.4107647059% {
-    content: "​Hi";
-    content: "​Hi"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  89.4117647059%, 90.1950784314% {
-    content: "​H";
-    content: "​H"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-  90.1960784314%, 100% {
-    content: "​";
-    content: "​"/"Hi! My name is Judy Wang and this is my ";
-    alt: "Hi! My name is Judy Wang and this is my ";
-  }
-}
-@keyframes typed-1-caret {
-  75% {
-    border-color: transparent;
-  }
 }
 
 /*# sourceMappingURL=styles.css.map */
