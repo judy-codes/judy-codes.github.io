@@ -3,7 +3,7 @@
 
 /* Global */
 html {
-    min-height: 100%;
+    height: 100%;
     overflow: hidden;
 }
 
@@ -15,13 +15,22 @@ body {
     background-color: rgb(25, 25, 25);
 }
 
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+  }
+
 .website-intro {
     @include typed(
-            ("website.": (color: blueviolet),
-            "passions.": (prefix: "These are my ", color: blueviolet),
-            "career journey.": (color: blueviolet),
-            "adventures.": (prefix: "These are my ", color: blueviolet)), 2, (iterations: 2, caret-width: 2px, end-on: "website."));
-
+            ("This is my <[15]> website.": (color: blueviolet),
+            "These are my passions.": (color: blueviolet),
+            "This is my career journey.": (color: blueviolet),
+            "These are my adventures.": (color: blueviolet)), 2, (prefix: "This is my ", iterations: 2, caret-width: 2px, end-on: "This is my website."));
     &::before {
         font-weight: bold;
     }
