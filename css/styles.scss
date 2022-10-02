@@ -4,10 +4,11 @@
 /* Global */
 html {
     height: 100%;
-    overflow: hidden;
+    overflow-y: scroll; 
+    overflow-x:hidden; 
 }
 
-body {
+header {
     height: calc(100vh - 8em);
     padding: 4em;
     color: rgba(255, 255, 255, .75);
@@ -16,13 +17,11 @@ body {
 }
 
 .container{
-    display: flex;
-    align-items: center;
+    display: block;
     justify-content: center;
-    padding: 0;
-    margin: 0 auto;
-    max-height: 100%;
-    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
   }
 
 .website-intro {
@@ -30,7 +29,7 @@ body {
             ("This is my website.": (color: blueviolet),
             "These are my passions.": (color: blueviolet),
             "This is my career journey.": (color: blueviolet),
-            "These are my adventures.": (color: blueviolet)), 2, (prefix: "This is my ", iterations: 2, caret-width: 2px, end-on: "This is my website."));
+            "These are my adventures.": (color: blueviolet)), 2, (iterations: 2, caret-width: 2px, end-on: "This is my website."));
     &::before {
         font-weight: bold;
     }
