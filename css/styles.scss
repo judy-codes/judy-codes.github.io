@@ -27,7 +27,7 @@ body {
 
 .website-intro {
     @include typed(
-            ("This is my <[15]> website.": (color: blueviolet),
+            ("This is my website.": (color: blueviolet),
             "These are my passions.": (color: blueviolet),
             "This is my career journey.": (color: blueviolet),
             "These are my adventures.": (color: blueviolet)), 2, (prefix: "This is my ", iterations: 2, caret-width: 2px, end-on: "This is my website."));

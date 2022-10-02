@@ -30,7 +30,7 @@ body {
   alt: "This is my website.";
   white-space: break-spaces;
   will-change: content;
-  animation: typed-0 15.03s linear 1s 2 forwards, typed-0-final 0.95s linear 31.06s 1 forwards;
+  animation: typed-0 14.19s linear 1s 2 forwards, typed-0-final 0.95s linear 29.38s 1 forwards;
 }
 @keyframes typed-0-final {
   0%, 5.2631578947% {
@@ -139,7 +139,7 @@ body {
   animation: typed-0-caret 0.75s linear 1s infinite forwards;
 }
 @keyframes typed-0 {
-  0%, 0.3316679973% {
+  0%, 0.3513608175% {
     content: "​This is my T";
     content: "​This is my T"/"This is my website.";
     alt: "This is my website.";
@@ -148,7 +148,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  0.3326679973%, 0.6643359947% {
+  0.3523608175%, 0.703721635% {
     content: "​This is my Th";
     content: "​This is my Th"/"This is my website.";
     alt: "This is my website.";
@@ -157,7 +157,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  0.6653359947%, 0.997003992% {
+  0.704721635%, 1.0560824524% {
     content: "​This is my Thi";
     content: "​This is my Thi"/"This is my website.";
     alt: "This is my website.";
@@ -166,7 +166,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  0.998003992%, 1.3296719894% {
+  1.0570824524%, 1.4084432699% {
     content: "​This is my This";
     content: "​This is my This"/"This is my website.";
     alt: "This is my website.";
@@ -175,7 +175,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  1.3306719894%, 1.6623399867% {
+  1.4094432699%, 1.7608040874% {
     content: "​This is my This ";
     content: "​This is my This "/"This is my website.";
     alt: "This is my website.";
@@ -184,7 +184,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  1.6633399867%, 1.995007984% {
+  1.7618040874%, 2.1131649049% {
     content: "​This is my This i";
     content: "​This is my This i"/"This is my website.";
     alt: "This is my website.";
@@ -193,7 +193,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  1.996007984%, 2.3276759814% {
+  2.1141649049%, 2.4655257223% {
     content: "​This is my This is";
     content: "​This is my This is"/"This is my website.";
     alt: "This is my website.";
@@ -202,7 +202,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  2.3286759814%, 2.6603439787% {
+  2.4665257223%, 2.8178865398% {
     content: "​This is my This is ";
     content: "​This is my This is "/"This is my website.";
     alt: "This is my website.";
@@ -211,7 +211,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  2.6613439787%, 2.993011976% {
+  2.8188865398%, 3.1702473573% {
     content: "​This is my This is m";
     content: "​This is my This is m"/"This is my website.";
     alt: "This is my website.";
@@ -220,7 +220,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  2.994011976%, 3.3256799734% {
+  3.1712473573%, 3.5226081748% {
     content: "​This is my This is my";
     content: "​This is my This is my"/"This is my website.";
     alt: "This is my website.";
@@ -229,7 +229,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  3.3266799734%, 3.6583479707% {
+  3.5236081748%, 3.8749689922% {
     content: "​This is my This is my ";
     content: "​This is my This is my "/"This is my website.";
     alt: "This is my website.";
@@ -238,7 +238,142 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  3.6593479707%, 3.9910159681% {
+  3.8759689922%, 4.2273298097% {
+    content: "​This is my This is my w";
+    content: "​This is my This is my w"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  4.2283298097%, 4.5796906272% {
+    content: "​This is my This is my we";
+    content: "​This is my This is my we"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  4.5806906272%, 4.9320514447% {
+    content: "​This is my This is my web";
+    content: "​This is my This is my web"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  4.9330514447%, 5.2844122622% {
+    content: "​This is my This is my webs";
+    content: "​This is my This is my webs"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  5.2854122622%, 5.6367730796% {
+    content: "​This is my This is my websi";
+    content: "​This is my This is my websi"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  5.6377730796%, 5.9891338971% {
+    content: "​This is my This is my websit";
+    content: "​This is my This is my websit"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  5.9901338971%, 6.3414947146% {
+    content: "​This is my This is my website";
+    content: "​This is my This is my website"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  6.3424947146%, 14.0229605356% {
+    content: "​This is my This is my website.";
+    content: "​This is my This is my website."/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  14.0239605356%, 14.3048491896% {
+    content: "​This is my This is my website";
+    content: "​This is my This is my website"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  14.3058491896%, 14.5867378436% {
+    content: "​This is my This is my websit";
+    content: "​This is my This is my websit"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  14.5877378436%, 14.8686264975% {
+    content: "​This is my This is my websi";
+    content: "​This is my This is my websi"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  14.8696264975%, 15.1505151515% {
+    content: "​This is my This is my webs";
+    content: "​This is my This is my webs"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  15.1515151515%, 15.4324038055% {
+    content: "​This is my This is my web";
+    content: "​This is my This is my web"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  15.4334038055%, 15.7142924595% {
+    content: "​This is my This is my we";
+    content: "​This is my This is my we"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  15.7152924595%, 15.9961811135% {
+    content: "​This is my This is my w";
+    content: "​This is my This is my w"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  15.9971811135%, 16.2780697674% {
     content: "​This is my This is my ";
     content: "​This is my This is my "/"This is my website.";
     alt: "This is my website.";
@@ -247,295 +382,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  3.9920159681%, 4.3236839654% {
-    content: "​This is my This is my ";
-    content: "​This is my This is my "/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  4.3246839654%, 4.6563519627% {
-    content: "​This is my This is my ";
-    content: "​This is my This is my "/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  4.6573519627%, 4.9890199601% {
-    content: "​This is my This is my ";
-    content: "​This is my This is my "/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  4.9900199601%, 5.3216879574% {
-    content: "​This is my This is my ";
-    content: "​This is my This is my "/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  5.3226879574%, 5.6543559548% {
-    content: "​This is my This is my ";
-    content: "​This is my This is my "/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  5.6553559548%, 5.9870239521% {
-    content: "​This is my This is my ";
-    content: "​This is my This is my "/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  5.9880239521%, 6.3196919494% {
-    content: "​This is my This is my ";
-    content: "​This is my This is my "/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  6.3206919494%, 6.6523599468% {
-    content: "​This is my This is my ";
-    content: "​This is my This is my "/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  6.6533599468%, 6.9850279441% {
-    content: "​This is my This is my ";
-    content: "​This is my This is my "/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  6.9860279441%, 7.3176959415% {
-    content: "​This is my This is my ";
-    content: "​This is my This is my "/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  7.3186959415%, 7.6503639388% {
-    content: "​This is my This is my ";
-    content: "​This is my This is my "/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  7.6513639388%, 7.9830319361% {
-    content: "​This is my This is my ";
-    content: "​This is my This is my "/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  7.9840319361%, 8.3156999335% {
-    content: "​This is my This is my ";
-    content: "​This is my This is my "/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  8.3166999335%, 8.6483679308% {
-    content: "​This is my This is my ";
-    content: "​This is my This is my "/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  8.6493679308%, 8.9810359281% {
-    content: "​This is my This is my  ";
-    content: "​This is my This is my  "/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  8.9820359281%, 9.3137039255% {
-    content: "​This is my This is my  w";
-    content: "​This is my This is my  w"/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  9.3147039255%, 9.6463719228% {
-    content: "​This is my This is my  we";
-    content: "​This is my This is my  we"/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  9.6473719228%, 9.9790399202% {
-    content: "​This is my This is my  web";
-    content: "​This is my This is my  web"/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  9.9800399202%, 10.3117079175% {
-    content: "​This is my This is my  webs";
-    content: "​This is my This is my  webs"/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  10.3127079175%, 10.6443759148% {
-    content: "​This is my This is my  websi";
-    content: "​This is my This is my  websi"/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  10.6453759148%, 10.9770439122% {
-    content: "​This is my This is my  websit";
-    content: "​This is my This is my  websit"/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  10.9780439122%, 11.3097119095% {
-    content: "​This is my This is my  website";
-    content: "​This is my This is my  website"/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  11.3107119095%, 18.5618742515% {
-    content: "​This is my This is my  website.";
-    content: "​This is my This is my  website."/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  18.5628742515%, 18.8280086494% {
-    content: "​This is my This is my  website";
-    content: "​This is my This is my  website"/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  18.8290086494%, 19.0941430472% {
-    content: "​This is my This is my  websit";
-    content: "​This is my This is my  websit"/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  19.0951430472%, 19.3602774451% {
-    content: "​This is my This is my  websi";
-    content: "​This is my This is my  websi"/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  19.3612774451%, 19.626411843% {
-    content: "​This is my This is my  webs";
-    content: "​This is my This is my  webs"/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  19.627411843%, 19.8925462409% {
-    content: "​This is my This is my  web";
-    content: "​This is my This is my  web"/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  19.8935462409%, 20.1586806387% {
-    content: "​This is my This is my  we";
-    content: "​This is my This is my  we"/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  20.1596806387%, 20.4248150366% {
-    content: "​This is my This is my  w";
-    content: "​This is my This is my  w"/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  20.4258150366%, 20.6909494345% {
-    content: "​This is my This is my  ";
-    content: "​This is my This is my  "/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  20.6919494345%, 20.9570838323% {
-    content: "​This is my This is my ";
-    content: "​This is my This is my "/"This is my website.";
-    alt: "This is my website.";
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-    color: blueviolet;
-  }
-  20.9580838323%, 21.2232182302% {
+  16.2790697674%, 16.5599584214% {
     content: "​This is my This is my";
     content: "​This is my This is my"/"This is my website.";
     alt: "This is my website.";
@@ -544,7 +391,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  21.2242182302%, 21.4893526281% {
+  16.5609584214%, 16.8418470754% {
     content: "​This is my This is m";
     content: "​This is my This is m"/"This is my website.";
     alt: "This is my website.";
@@ -553,7 +400,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  21.4903526281%, 21.7554870259% {
+  16.8428470754%, 17.1237357294% {
     content: "​This is my This is ";
     content: "​This is my This is "/"This is my website.";
     alt: "This is my website.";
@@ -562,7 +409,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  21.7564870259%, 22.0216214238% {
+  17.1247357294%, 17.4056243834% {
     content: "​This is my This is";
     content: "​This is my This is"/"This is my website.";
     alt: "This is my website.";
@@ -571,7 +418,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  22.0226214238%, 22.2877558217% {
+  17.4066243834%, 17.6875130374% {
     content: "​This is my This i";
     content: "​This is my This i"/"This is my website.";
     alt: "This is my website.";
@@ -580,7 +427,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  22.2887558217%, 22.5538902196% {
+  17.6885130374%, 17.9694016913% {
     content: "​This is my This ";
     content: "​This is my This "/"This is my website.";
     alt: "This is my website.";
@@ -589,7 +436,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  22.5548902196%, 22.8200246174% {
+  17.9704016913%, 18.2512903453% {
     content: "​This is my This";
     content: "​This is my This"/"This is my website.";
     alt: "This is my website.";
@@ -598,7 +445,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  22.8210246174%, 23.0861590153% {
+  18.2522903453%, 18.5331789993% {
     content: "​This is my Thi";
     content: "​This is my Thi"/"This is my website.";
     alt: "This is my website.";
@@ -607,7 +454,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  23.0871590153%, 23.3522934132% {
+  18.5341789993%, 18.8150676533% {
     content: "​This is my Th";
     content: "​This is my Th"/"This is my website.";
     alt: "This is my website.";
@@ -616,7 +463,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  23.3532934132%, 23.618427811% {
+  18.8160676533%, 19.0969563073% {
     content: "​This is my T";
     content: "​This is my T"/"This is my website.";
     alt: "This is my website.";
@@ -625,7 +472,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  23.619427811%, 26.9451077844% {
+  19.0979563073%, 22.620564482% {
     content: "​This is my ";
     content: "​This is my "/"This is my website.";
     alt: "This is my website.";
@@ -634,7 +481,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  26.9461077844%, 27.2777757818% {
+  22.621564482%, 22.9729252995% {
     content: "​This is my T";
     content: "​This is my T"/"This is my website.";
     alt: "This is my website.";
@@ -643,7 +490,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  27.2787757818%, 27.6104437791% {
+  22.9739252995%, 23.325286117% {
     content: "​This is my Th";
     content: "​This is my Th"/"This is my website.";
     alt: "This is my website.";
@@ -652,7 +499,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  27.6114437791%, 27.9431117764% {
+  23.326286117%, 23.6776469345% {
     content: "​This is my The";
     content: "​This is my The"/"This is my website.";
     alt: "This is my website.";
@@ -661,7 +508,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  27.9441117764%, 28.2757797738% {
+  23.6786469345%, 24.0300077519% {
     content: "​This is my Thes";
     content: "​This is my Thes"/"This is my website.";
     alt: "This is my website.";
@@ -670,7 +517,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  28.2767797738%, 28.6084477711% {
+  24.0310077519%, 24.3823685694% {
     content: "​This is my These";
     content: "​This is my These"/"This is my website.";
     alt: "This is my website.";
@@ -679,7 +526,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  28.6094477711%, 28.9411157685% {
+  24.3833685694%, 24.7347293869% {
     content: "​This is my These ";
     content: "​This is my These "/"This is my website.";
     alt: "This is my website.";
@@ -688,7 +535,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  28.9421157685%, 29.2737837658% {
+  24.7357293869%, 25.0870902044% {
     content: "​This is my These a";
     content: "​This is my These a"/"This is my website.";
     alt: "This is my website.";
@@ -697,7 +544,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  29.2747837658%, 29.6064517631% {
+  25.0880902044%, 25.4394510218% {
     content: "​This is my These ar";
     content: "​This is my These ar"/"This is my website.";
     alt: "This is my website.";
@@ -706,7 +553,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  29.6074517631%, 29.9391197605% {
+  25.4404510218%, 25.7918118393% {
     content: "​This is my These are";
     content: "​This is my These are"/"This is my website.";
     alt: "This is my website.";
@@ -715,7 +562,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  29.9401197605%, 30.2717877578% {
+  25.7928118393%, 26.1441726568% {
     content: "​This is my These are ";
     content: "​This is my These are "/"This is my website.";
     alt: "This is my website.";
@@ -724,7 +571,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  30.2727877578%, 30.6044557552% {
+  26.1451726568%, 26.4965334743% {
     content: "​This is my These are m";
     content: "​This is my These are m"/"This is my website.";
     alt: "This is my website.";
@@ -733,7 +580,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  30.6054557552%, 30.9371237525% {
+  26.4975334743%, 26.8488942918% {
     content: "​This is my These are my";
     content: "​This is my These are my"/"This is my website.";
     alt: "This is my website.";
@@ -742,7 +589,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  30.9381237525%, 31.2697917498% {
+  26.8498942918%, 27.2012551092% {
     content: "​This is my These are my ";
     content: "​This is my These are my "/"This is my website.";
     alt: "This is my website.";
@@ -751,7 +598,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  31.2707917498%, 31.6024597472% {
+  27.2022551092%, 27.5536159267% {
     content: "​This is my These are my p";
     content: "​This is my These are my p"/"This is my website.";
     alt: "This is my website.";
@@ -760,7 +607,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  31.6034597472%, 31.9351277445% {
+  27.5546159267%, 27.9059767442% {
     content: "​This is my These are my pa";
     content: "​This is my These are my pa"/"This is my website.";
     alt: "This is my website.";
@@ -769,7 +616,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  31.9361277445%, 32.2677957418% {
+  27.9069767442%, 28.2583375617% {
     content: "​This is my These are my pas";
     content: "​This is my These are my pas"/"This is my website.";
     alt: "This is my website.";
@@ -778,7 +625,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  32.2687957418%, 32.6004637392% {
+  28.2593375617%, 28.6106983791% {
     content: "​This is my These are my pass";
     content: "​This is my These are my pass"/"This is my website.";
     alt: "This is my website.";
@@ -787,7 +634,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  32.6014637392%, 32.9331317365% {
+  28.6116983791%, 28.9630591966% {
     content: "​This is my These are my passi";
     content: "​This is my These are my passi"/"This is my website.";
     alt: "This is my website.";
@@ -796,7 +643,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  32.9341317365%, 33.2657997339% {
+  28.9640591966%, 29.3154200141% {
     content: "​This is my These are my passio";
     content: "​This is my These are my passio"/"This is my website.";
     alt: "This is my website.";
@@ -805,7 +652,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  33.2667997339%, 33.5984677312% {
+  29.3164200141%, 29.6677808316% {
     content: "​This is my These are my passion";
     content: "​This is my These are my passion"/"This is my website.";
     alt: "This is my website.";
@@ -814,7 +661,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  33.5994677312%, 33.9311357285% {
+  29.6687808316%, 30.020141649% {
     content: "​This is my These are my passions";
     content: "​This is my These are my passions"/"This is my website.";
     alt: "This is my website.";
@@ -823,7 +670,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  33.9321357285%, 41.1832980705% {
+  30.021141649%, 37.70160747% {
     content: "​This is my These are my passions.";
     content: "​This is my These are my passions."/"This is my website.";
     alt: "This is my website.";
@@ -832,7 +679,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  41.1842980705%, 41.4494324684% {
+  37.70260747%, 37.983496124% {
     content: "​This is my These are my passions";
     content: "​This is my These are my passions"/"This is my website.";
     alt: "This is my website.";
@@ -841,7 +688,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  41.4504324684%, 41.7155668663% {
+  37.984496124%, 38.265384778% {
     content: "​This is my These are my passion";
     content: "​This is my These are my passion"/"This is my website.";
     alt: "This is my website.";
@@ -850,7 +697,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  41.7165668663%, 41.9817012641% {
+  38.266384778%, 38.547273432% {
     content: "​This is my These are my passio";
     content: "​This is my These are my passio"/"This is my website.";
     alt: "This is my website.";
@@ -859,7 +706,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  41.9827012641%, 42.247835662% {
+  38.548273432%, 38.829162086% {
     content: "​This is my These are my passi";
     content: "​This is my These are my passi"/"This is my website.";
     alt: "This is my website.";
@@ -868,7 +715,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  42.248835662%, 42.5139700599% {
+  38.830162086%, 39.11105074% {
     content: "​This is my These are my pass";
     content: "​This is my These are my pass"/"This is my website.";
     alt: "This is my website.";
@@ -877,7 +724,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  42.5149700599%, 42.7801044578% {
+  39.11205074%, 39.3929393939% {
     content: "​This is my These are my pas";
     content: "​This is my These are my pas"/"This is my website.";
     alt: "This is my website.";
@@ -886,7 +733,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  42.7811044578%, 43.0462388556% {
+  39.3939393939%, 39.6748280479% {
     content: "​This is my These are my pa";
     content: "​This is my These are my pa"/"This is my website.";
     alt: "This is my website.";
@@ -895,7 +742,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  43.0472388556%, 43.3123732535% {
+  39.6758280479%, 39.9567167019% {
     content: "​This is my These are my p";
     content: "​This is my These are my p"/"This is my website.";
     alt: "This is my website.";
@@ -904,7 +751,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  43.3133732535%, 43.5785076514% {
+  39.9577167019%, 40.2386053559% {
     content: "​This is my These are my ";
     content: "​This is my These are my "/"This is my website.";
     alt: "This is my website.";
@@ -913,7 +760,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  43.5795076514%, 43.8446420492% {
+  40.2396053559%, 40.5204940099% {
     content: "​This is my These are my";
     content: "​This is my These are my"/"This is my website.";
     alt: "This is my website.";
@@ -922,7 +769,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  43.8456420492%, 44.1107764471% {
+  40.5214940099%, 40.8023826638% {
     content: "​This is my These are m";
     content: "​This is my These are m"/"This is my website.";
     alt: "This is my website.";
@@ -931,7 +778,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  44.1117764471%, 44.376910845% {
+  40.8033826638%, 41.0842713178% {
     content: "​This is my These are ";
     content: "​This is my These are "/"This is my website.";
     alt: "This is my website.";
@@ -940,7 +787,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  44.377910845%, 44.6430452428% {
+  41.0852713178%, 41.3661599718% {
     content: "​This is my These are";
     content: "​This is my These are"/"This is my website.";
     alt: "This is my website.";
@@ -949,7 +796,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  44.6440452428%, 44.9091796407% {
+  41.3671599718%, 41.6480486258% {
     content: "​This is my These ar";
     content: "​This is my These ar"/"This is my website.";
     alt: "This is my website.";
@@ -958,7 +805,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  44.9101796407%, 45.1753140386% {
+  41.6490486258%, 41.9299372798% {
     content: "​This is my These a";
     content: "​This is my These a"/"This is my website.";
     alt: "This is my website.";
@@ -967,7 +814,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  45.1763140386%, 45.4414484365% {
+  41.9309372798%, 42.2118259338% {
     content: "​This is my These ";
     content: "​This is my These "/"This is my website.";
     alt: "This is my website.";
@@ -976,7 +823,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  45.4424484365%, 45.7075828343% {
+  42.2128259338%, 42.4937145877% {
     content: "​This is my These";
     content: "​This is my These"/"This is my website.";
     alt: "This is my website.";
@@ -985,7 +832,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  45.7085828343%, 45.9737172322% {
+  42.4947145877%, 42.7756032417% {
     content: "​This is my Thes";
     content: "​This is my Thes"/"This is my website.";
     alt: "This is my website.";
@@ -994,7 +841,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  45.9747172322%, 46.2398516301% {
+  42.7766032417%, 43.0574918957% {
     content: "​This is my The";
     content: "​This is my The"/"This is my website.";
     alt: "This is my website.";
@@ -1003,7 +850,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  46.2408516301%, 46.5059860279% {
+  43.0584918957%, 43.3393805497% {
     content: "​This is my Th";
     content: "​This is my Th"/"This is my website.";
     alt: "This is my website.";
@@ -1012,7 +859,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  46.5069860279%, 46.7721204258% {
+  43.3403805497%, 43.6212692037% {
     content: "​This is my T";
     content: "​This is my T"/"This is my website.";
     alt: "This is my website.";
@@ -1021,7 +868,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  46.7731204258%, 50.0988003992% {
+  43.6222692037%, 47.1448773784% {
     content: "​This is my ";
     content: "​This is my "/"This is my website.";
     alt: "This is my website.";
@@ -1030,7 +877,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  50.0998003992%, 50.4314683965% {
+  47.1458773784%, 47.4972381959% {
     content: "​This is my T";
     content: "​This is my T"/"This is my website.";
     alt: "This is my website.";
@@ -1039,7 +886,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  50.4324683965%, 50.7641363939% {
+  47.4982381959%, 47.8495990134% {
     content: "​This is my Th";
     content: "​This is my Th"/"This is my website.";
     alt: "This is my website.";
@@ -1048,7 +895,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  50.7651363939%, 51.0968043912% {
+  47.8505990134%, 48.2019598309% {
     content: "​This is my Thi";
     content: "​This is my Thi"/"This is my website.";
     alt: "This is my website.";
@@ -1057,7 +904,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  51.0978043912%, 51.4294723886% {
+  48.2029598309%, 48.5543206483% {
     content: "​This is my This";
     content: "​This is my This"/"This is my website.";
     alt: "This is my website.";
@@ -1066,7 +913,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  51.4304723886%, 51.7621403859% {
+  48.5553206483%, 48.9066814658% {
     content: "​This is my This ";
     content: "​This is my This "/"This is my website.";
     alt: "This is my website.";
@@ -1075,7 +922,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  51.7631403859%, 52.0948083832% {
+  48.9076814658%, 49.2590422833% {
     content: "​This is my This i";
     content: "​This is my This i"/"This is my website.";
     alt: "This is my website.";
@@ -1084,7 +931,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  52.0958083832%, 52.4274763806% {
+  49.2600422833%, 49.6114031008% {
     content: "​This is my This is";
     content: "​This is my This is"/"This is my website.";
     alt: "This is my website.";
@@ -1093,7 +940,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  52.4284763806%, 52.7601443779% {
+  49.6124031008%, 49.9637639183% {
     content: "​This is my This is ";
     content: "​This is my This is "/"This is my website.";
     alt: "This is my website.";
@@ -1102,7 +949,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  52.7611443779%, 53.0928123752% {
+  49.9647639183%, 50.3161247357% {
     content: "​This is my This is m";
     content: "​This is my This is m"/"This is my website.";
     alt: "This is my website.";
@@ -1111,7 +958,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  53.0938123752%, 53.4254803726% {
+  50.3171247357%, 50.6684855532% {
     content: "​This is my This is my";
     content: "​This is my This is my"/"This is my website.";
     alt: "This is my website.";
@@ -1120,7 +967,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  53.4264803726%, 53.7581483699% {
+  50.6694855532%, 51.0208463707% {
     content: "​This is my This is my ";
     content: "​This is my This is my "/"This is my website.";
     alt: "This is my website.";
@@ -1129,7 +976,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  53.7591483699%, 54.0908163673% {
+  51.0218463707%, 51.3732071882% {
     content: "​This is my This is my c";
     content: "​This is my This is my c"/"This is my website.";
     alt: "This is my website.";
@@ -1138,7 +985,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  54.0918163673%, 54.4234843646% {
+  51.3742071882%, 51.7255680056% {
     content: "​This is my This is my ca";
     content: "​This is my This is my ca"/"This is my website.";
     alt: "This is my website.";
@@ -1147,7 +994,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  54.4244843646%, 54.7561523619% {
+  51.7265680056%, 52.0779288231% {
     content: "​This is my This is my car";
     content: "​This is my This is my car"/"This is my website.";
     alt: "This is my website.";
@@ -1156,7 +1003,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  54.7571523619%, 55.0888203593% {
+  52.0789288231%, 52.4302896406% {
     content: "​This is my This is my care";
     content: "​This is my This is my care"/"This is my website.";
     alt: "This is my website.";
@@ -1165,7 +1012,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  55.0898203593%, 55.4214883566% {
+  52.4312896406%, 52.7826504581% {
     content: "​This is my This is my caree";
     content: "​This is my This is my caree"/"This is my website.";
     alt: "This is my website.";
@@ -1174,7 +1021,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  55.4224883566%, 55.754156354% {
+  52.7836504581%, 53.1350112755% {
     content: "​This is my This is my career";
     content: "​This is my This is my career"/"This is my website.";
     alt: "This is my website.";
@@ -1183,7 +1030,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  55.755156354%, 56.0868243513% {
+  53.1360112755%, 53.487372093% {
     content: "​This is my This is my career ";
     content: "​This is my This is my career "/"This is my website.";
     alt: "This is my website.";
@@ -1192,7 +1039,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  56.0878243513%, 56.4194923486% {
+  53.488372093%, 53.8397329105% {
     content: "​This is my This is my career j";
     content: "​This is my This is my career j"/"This is my website.";
     alt: "This is my website.";
@@ -1201,7 +1048,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  56.4204923486%, 56.752160346% {
+  53.8407329105%, 54.192093728% {
     content: "​This is my This is my career jo";
     content: "​This is my This is my career jo"/"This is my website.";
     alt: "This is my website.";
@@ -1210,7 +1057,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  56.753160346%, 57.0848283433% {
+  54.193093728%, 54.5444545455% {
     content: "​This is my This is my career jou";
     content: "​This is my This is my career jou"/"This is my website.";
     alt: "This is my website.";
@@ -1219,7 +1066,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  57.0858283433%, 57.4174963407% {
+  54.5454545455%, 54.8968153629% {
     content: "​This is my This is my career jour";
     content: "​This is my This is my career jour"/"This is my website.";
     alt: "This is my website.";
@@ -1228,7 +1075,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  57.4184963407%, 57.750164338% {
+  54.8978153629%, 55.2491761804% {
     content: "​This is my This is my career journ";
     content: "​This is my This is my career journ"/"This is my website.";
     alt: "This is my website.";
@@ -1237,7 +1084,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  57.751164338%, 58.0828323353% {
+  55.2501761804%, 55.6015369979% {
     content: "​This is my This is my career journe";
     content: "​This is my This is my career journe"/"This is my website.";
     alt: "This is my website.";
@@ -1246,7 +1093,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  58.0838323353%, 58.4155003327% {
+  55.6025369979%, 55.9538978154% {
     content: "​This is my This is my career journey";
     content: "​This is my This is my career journey"/"This is my website.";
     alt: "This is my website.";
@@ -1255,7 +1102,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  58.4165003327%, 65.6676626747% {
+  55.9548978154%, 63.6353636364% {
     content: "​This is my This is my career journey.";
     content: "​This is my This is my career journey."/"This is my website.";
     alt: "This is my website.";
@@ -1264,7 +1111,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  65.6686626747%, 65.9337970725% {
+  63.6363636364%, 63.9172522903% {
     content: "​This is my This is my career journey";
     content: "​This is my This is my career journey"/"This is my website.";
     alt: "This is my website.";
@@ -1273,7 +1120,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  65.9347970725%, 66.1999314704% {
+  63.9182522903%, 64.1991409443% {
     content: "​This is my This is my career journe";
     content: "​This is my This is my career journe"/"This is my website.";
     alt: "This is my website.";
@@ -1282,7 +1129,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  66.2009314704%, 66.4660658683% {
+  64.2001409443%, 64.4810295983% {
     content: "​This is my This is my career journ";
     content: "​This is my This is my career journ"/"This is my website.";
     alt: "This is my website.";
@@ -1291,7 +1138,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  66.4670658683%, 66.7322002661% {
+  64.4820295983%, 64.7629182523% {
     content: "​This is my This is my career jour";
     content: "​This is my This is my career jour"/"This is my website.";
     alt: "This is my website.";
@@ -1300,7 +1147,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  66.7332002661%, 66.998334664% {
+  64.7639182523%, 65.0448069063% {
     content: "​This is my This is my career jou";
     content: "​This is my This is my career jou"/"This is my website.";
     alt: "This is my website.";
@@ -1309,7 +1156,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  66.999334664%, 67.2644690619% {
+  65.0458069063%, 65.3266955603% {
     content: "​This is my This is my career jo";
     content: "​This is my This is my career jo"/"This is my website.";
     alt: "This is my website.";
@@ -1318,7 +1165,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  67.2654690619%, 67.5306034597% {
+  65.3276955603%, 65.6085842142% {
     content: "​This is my This is my career j";
     content: "​This is my This is my career j"/"This is my website.";
     alt: "This is my website.";
@@ -1327,7 +1174,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  67.5316034597%, 67.7967378576% {
+  65.6095842142%, 65.8904728682% {
     content: "​This is my This is my career ";
     content: "​This is my This is my career "/"This is my website.";
     alt: "This is my website.";
@@ -1336,7 +1183,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  67.7977378576%, 68.0628722555% {
+  65.8914728682%, 66.1723615222% {
     content: "​This is my This is my career";
     content: "​This is my This is my career"/"This is my website.";
     alt: "This is my website.";
@@ -1345,7 +1192,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  68.0638722555%, 68.3290066534% {
+  66.1733615222%, 66.4542501762% {
     content: "​This is my This is my caree";
     content: "​This is my This is my caree"/"This is my website.";
     alt: "This is my website.";
@@ -1354,7 +1201,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  68.3300066534%, 68.5951410512% {
+  66.4552501762%, 66.7361388302% {
     content: "​This is my This is my care";
     content: "​This is my This is my care"/"This is my website.";
     alt: "This is my website.";
@@ -1363,7 +1210,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  68.5961410512%, 68.8612754491% {
+  66.7371388302%, 67.0180274841% {
     content: "​This is my This is my car";
     content: "​This is my This is my car"/"This is my website.";
     alt: "This is my website.";
@@ -1372,7 +1219,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  68.8622754491%, 69.127409847% {
+  67.0190274841%, 67.2999161381% {
     content: "​This is my This is my ca";
     content: "​This is my This is my ca"/"This is my website.";
     alt: "This is my website.";
@@ -1381,7 +1228,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  69.128409847%, 69.3935442448% {
+  67.3009161381%, 67.5818047921% {
     content: "​This is my This is my c";
     content: "​This is my This is my c"/"This is my website.";
     alt: "This is my website.";
@@ -1390,7 +1237,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  69.3945442448%, 69.6596786427% {
+  67.5828047921%, 67.8636934461% {
     content: "​This is my This is my ";
     content: "​This is my This is my "/"This is my website.";
     alt: "This is my website.";
@@ -1399,7 +1246,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  69.6606786427%, 69.9258130406% {
+  67.8646934461%, 68.1455821001% {
     content: "​This is my This is my";
     content: "​This is my This is my"/"This is my website.";
     alt: "This is my website.";
@@ -1408,7 +1255,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  69.9268130406%, 70.1919474385% {
+  68.1465821001%, 68.4274707541% {
     content: "​This is my This is m";
     content: "​This is my This is m"/"This is my website.";
     alt: "This is my website.";
@@ -1417,7 +1264,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  70.1929474385%, 70.4580818363% {
+  68.4284707541%, 68.709359408% {
     content: "​This is my This is ";
     content: "​This is my This is "/"This is my website.";
     alt: "This is my website.";
@@ -1426,7 +1273,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  70.4590818363%, 70.7242162342% {
+  68.710359408%, 68.991248062% {
     content: "​This is my This is";
     content: "​This is my This is"/"This is my website.";
     alt: "This is my website.";
@@ -1435,7 +1282,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  70.7252162342%, 70.9903506321% {
+  68.992248062%, 69.273136716% {
     content: "​This is my This i";
     content: "​This is my This i"/"This is my website.";
     alt: "This is my website.";
@@ -1444,7 +1291,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  70.9913506321%, 71.2564850299% {
+  69.274136716%, 69.55502537% {
     content: "​This is my This ";
     content: "​This is my This "/"This is my website.";
     alt: "This is my website.";
@@ -1453,7 +1300,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  71.2574850299%, 71.5226194278% {
+  69.55602537%, 69.836914024% {
     content: "​This is my This";
     content: "​This is my This"/"This is my website.";
     alt: "This is my website.";
@@ -1462,7 +1309,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  71.5236194278%, 71.7887538257% {
+  69.837914024%, 70.1188026779% {
     content: "​This is my Thi";
     content: "​This is my Thi"/"This is my website.";
     alt: "This is my website.";
@@ -1471,7 +1318,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  71.7897538257%, 72.0548882236% {
+  70.1198026779%, 70.4006913319% {
     content: "​This is my Th";
     content: "​This is my Th"/"This is my website.";
     alt: "This is my website.";
@@ -1480,7 +1327,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  72.0558882236%, 72.3210226214% {
+  70.4016913319%, 70.6825799859% {
     content: "​This is my T";
     content: "​This is my T"/"This is my website.";
     alt: "This is my website.";
@@ -1489,7 +1336,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  72.3220226214%, 75.6477025948% {
+  70.6835799859%, 74.2061881607% {
     content: "​This is my ";
     content: "​This is my "/"This is my website.";
     alt: "This is my website.";
@@ -1498,7 +1345,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  75.6487025948%, 75.9803705921% {
+  74.2071881607%, 74.5585489782% {
     content: "​This is my T";
     content: "​This is my T"/"This is my website.";
     alt: "This is my website.";
@@ -1507,7 +1354,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  75.9813705921%, 76.3130385895% {
+  74.5595489782%, 74.9109097956% {
     content: "​This is my Th";
     content: "​This is my Th"/"This is my website.";
     alt: "This is my website.";
@@ -1516,7 +1363,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  76.3140385895%, 76.6457065868% {
+  74.9119097956%, 75.2632706131% {
     content: "​This is my The";
     content: "​This is my The"/"This is my website.";
     alt: "This is my website.";
@@ -1525,7 +1372,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  76.6467065868%, 76.9783745842% {
+  75.2642706131%, 75.6156314306% {
     content: "​This is my Thes";
     content: "​This is my Thes"/"This is my website.";
     alt: "This is my website.";
@@ -1534,7 +1381,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  76.9793745842%, 77.3110425815% {
+  75.6166314306%, 75.9679922481% {
     content: "​This is my These";
     content: "​This is my These"/"This is my website.";
     alt: "This is my website.";
@@ -1543,7 +1390,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  77.3120425815%, 77.6437105788% {
+  75.9689922481%, 76.3203530655% {
     content: "​This is my These ";
     content: "​This is my These "/"This is my website.";
     alt: "This is my website.";
@@ -1552,7 +1399,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  77.6447105788%, 77.9763785762% {
+  76.3213530655%, 76.672713883% {
     content: "​This is my These a";
     content: "​This is my These a"/"This is my website.";
     alt: "This is my website.";
@@ -1561,7 +1408,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  77.9773785762%, 78.3090465735% {
+  76.673713883%, 77.0250747005% {
     content: "​This is my These ar";
     content: "​This is my These ar"/"This is my website.";
     alt: "This is my website.";
@@ -1570,7 +1417,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  78.3100465735%, 78.6417145709% {
+  77.0260747005%, 77.377435518% {
     content: "​This is my These are";
     content: "​This is my These are"/"This is my website.";
     alt: "This is my website.";
@@ -1579,7 +1426,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  78.6427145709%, 78.9743825682% {
+  77.378435518%, 77.7297963354% {
     content: "​This is my These are ";
     content: "​This is my These are "/"This is my website.";
     alt: "This is my website.";
@@ -1588,7 +1435,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  78.9753825682%, 79.3070505655% {
+  77.7307963354%, 78.0821571529% {
     content: "​This is my These are m";
     content: "​This is my These are m"/"This is my website.";
     alt: "This is my website.";
@@ -1597,7 +1444,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  79.3080505655%, 79.6397185629% {
+  78.0831571529%, 78.4345179704% {
     content: "​This is my These are my";
     content: "​This is my These are my"/"This is my website.";
     alt: "This is my website.";
@@ -1606,7 +1453,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  79.6407185629%, 79.9723865602% {
+  78.4355179704%, 78.7868787879% {
     content: "​This is my These are my ";
     content: "​This is my These are my "/"This is my website.";
     alt: "This is my website.";
@@ -1615,7 +1462,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  79.9733865602%, 80.3050545576% {
+  78.7878787879%, 79.1392396054% {
     content: "​This is my These are my a";
     content: "​This is my These are my a"/"This is my website.";
     alt: "This is my website.";
@@ -1624,7 +1471,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  80.3060545576%, 80.6377225549% {
+  79.1402396054%, 79.4916004228% {
     content: "​This is my These are my ad";
     content: "​This is my These are my ad"/"This is my website.";
     alt: "This is my website.";
@@ -1633,7 +1480,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  80.6387225549%, 80.9703905522% {
+  79.4926004228%, 79.8439612403% {
     content: "​This is my These are my adv";
     content: "​This is my These are my adv"/"This is my website.";
     alt: "This is my website.";
@@ -1642,7 +1489,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  80.9713905522%, 81.3030585496% {
+  79.8449612403%, 80.1963220578% {
     content: "​This is my These are my adve";
     content: "​This is my These are my adve"/"This is my website.";
     alt: "This is my website.";
@@ -1651,7 +1498,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  81.3040585496%, 81.6357265469% {
+  80.1973220578%, 80.5486828753% {
     content: "​This is my These are my adven";
     content: "​This is my These are my adven"/"This is my website.";
     alt: "This is my website.";
@@ -1660,7 +1507,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  81.6367265469%, 81.9683945442% {
+  80.5496828753%, 80.9010436927% {
     content: "​This is my These are my advent";
     content: "​This is my These are my advent"/"This is my website.";
     alt: "This is my website.";
@@ -1669,7 +1516,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  81.9693945442%, 82.3010625416% {
+  80.9020436927%, 81.2534045102% {
     content: "​This is my These are my adventu";
     content: "​This is my These are my adventu"/"This is my website.";
     alt: "This is my website.";
@@ -1678,7 +1525,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  82.3020625416%, 82.6337305389% {
+  81.2544045102%, 81.6057653277% {
     content: "​This is my These are my adventur";
     content: "​This is my These are my adventur"/"This is my website.";
     alt: "This is my website.";
@@ -1687,7 +1534,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  82.6347305389%, 82.9663985363% {
+  81.6067653277%, 81.9581261452% {
     content: "​This is my These are my adventure";
     content: "​This is my These are my adventure"/"This is my website.";
     alt: "This is my website.";
@@ -1696,7 +1543,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  82.9673985363%, 83.2990665336% {
+  81.9591261452%, 82.3104869626% {
     content: "​This is my These are my adventures";
     content: "​This is my These are my adventures"/"This is my website.";
     alt: "This is my website.";
@@ -1705,7 +1552,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  83.3000665336%, 90.5512288756% {
+  82.3114869626%, 89.9919527837% {
     content: "​This is my These are my adventures.";
     content: "​This is my These are my adventures."/"This is my website.";
     alt: "This is my website.";
@@ -1714,7 +1561,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  90.5522288756%, 90.8173632735% {
+  89.9929527837%, 90.2738414376% {
     content: "​This is my These are my adventures";
     content: "​This is my These are my adventures"/"This is my website.";
     alt: "This is my website.";
@@ -1723,7 +1570,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  90.8183632735%, 91.0834976713% {
+  90.2748414376%, 90.5557300916% {
     content: "​This is my These are my adventure";
     content: "​This is my These are my adventure"/"This is my website.";
     alt: "This is my website.";
@@ -1732,7 +1579,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  91.0844976713%, 91.3496320692% {
+  90.5567300916%, 90.8376187456% {
     content: "​This is my These are my adventur";
     content: "​This is my These are my adventur"/"This is my website.";
     alt: "This is my website.";
@@ -1741,7 +1588,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  91.3506320692%, 91.6157664671% {
+  90.8386187456%, 91.1195073996% {
     content: "​This is my These are my adventu";
     content: "​This is my These are my adventu"/"This is my website.";
     alt: "This is my website.";
@@ -1750,7 +1597,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  91.6167664671%, 91.8819008649% {
+  91.1205073996%, 91.4013960536% {
     content: "​This is my These are my advent";
     content: "​This is my These are my advent"/"This is my website.";
     alt: "This is my website.";
@@ -1759,7 +1606,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  91.8829008649%, 92.1480352628% {
+  91.4023960536%, 91.6832847075% {
     content: "​This is my These are my adven";
     content: "​This is my These are my adven"/"This is my website.";
     alt: "This is my website.";
@@ -1768,7 +1615,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  92.1490352628%, 92.4141696607% {
+  91.6842847075%, 91.9651733615% {
     content: "​This is my These are my adve";
     content: "​This is my These are my adve"/"This is my website.";
     alt: "This is my website.";
@@ -1777,7 +1624,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  92.4151696607%, 92.6803040585% {
+  91.9661733615%, 92.2470620155% {
     content: "​This is my These are my adv";
     content: "​This is my These are my adv"/"This is my website.";
     alt: "This is my website.";
@@ -1786,7 +1633,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  92.6813040585%, 92.9464384564% {
+  92.2480620155%, 92.5289506695% {
     content: "​This is my These are my ad";
     content: "​This is my These are my ad"/"This is my website.";
     alt: "This is my website.";
@@ -1795,7 +1642,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  92.9474384564%, 93.2125728543% {
+  92.5299506695%, 92.8108393235% {
     content: "​This is my These are my a";
     content: "​This is my These are my a"/"This is my website.";
     alt: "This is my website.";
@@ -1804,7 +1651,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  93.2135728543%, 93.4787072522% {
+  92.8118393235%, 93.0927279774% {
     content: "​This is my These are my ";
     content: "​This is my These are my "/"This is my website.";
     alt: "This is my website.";
@@ -1813,7 +1660,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  93.4797072522%, 93.74484165% {
+  93.0937279774%, 93.3746166314% {
     content: "​This is my These are my";
     content: "​This is my These are my"/"This is my website.";
     alt: "This is my website.";
@@ -1822,7 +1669,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  93.74584165%, 94.0109760479% {
+  93.3756166314%, 93.6565052854% {
     content: "​This is my These are m";
     content: "​This is my These are m"/"This is my website.";
     alt: "This is my website.";
@@ -1831,7 +1678,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  94.0119760479%, 94.2771104458% {
+  93.6575052854%, 93.9383939394% {
     content: "​This is my These are ";
     content: "​This is my These are "/"This is my website.";
     alt: "This is my website.";
@@ -1840,7 +1687,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  94.2781104458%, 94.5432448436% {
+  93.9393939394%, 94.2202825934% {
     content: "​This is my These are";
     content: "​This is my These are"/"This is my website.";
     alt: "This is my website.";
@@ -1849,7 +1696,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  94.5442448436%, 94.8093792415% {
+  94.2212825934%, 94.5021712474% {
     content: "​This is my These ar";
     content: "​This is my These ar"/"This is my website.";
     alt: "This is my website.";
@@ -1858,7 +1705,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  94.8103792415%, 95.0755136394% {
+  94.5031712474%, 94.7840599013% {
     content: "​This is my These a";
     content: "​This is my These a"/"This is my website.";
     alt: "This is my website.";
@@ -1867,7 +1714,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  95.0765136394%, 95.3416480373% {
+  94.7850599013%, 95.0659485553% {
     content: "​This is my These ";
     content: "​This is my These "/"This is my website.";
     alt: "This is my website.";
@@ -1876,7 +1723,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  95.3426480373%, 95.6077824351% {
+  95.0669485553%, 95.3478372093% {
     content: "​This is my These";
     content: "​This is my These"/"This is my website.";
     alt: "This is my website.";
@@ -1885,7 +1732,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  95.6087824351%, 95.873916833% {
+  95.3488372093%, 95.6297258633% {
     content: "​This is my Thes";
     content: "​This is my Thes"/"This is my website.";
     alt: "This is my website.";
@@ -1894,7 +1741,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  95.874916833%, 96.1400512309% {
+  95.6307258633%, 95.9116145173% {
     content: "​This is my The";
     content: "​This is my The"/"This is my website.";
     alt: "This is my website.";
@@ -1903,7 +1750,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  96.1410512309%, 96.4061856287% {
+  95.9126145173%, 96.1935031712% {
     content: "​This is my Th";
     content: "​This is my Th"/"This is my website.";
     alt: "This is my website.";
@@ -1912,7 +1759,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  96.4071856287%, 96.6723200266% {
+  96.1945031712%, 96.4753918252% {
     content: "​This is my T";
     content: "​This is my T"/"This is my website.";
     alt: "This is my website.";
@@ -1921,7 +1768,7 @@ body {
     color: blueviolet;
     color: blueviolet;
   }
-  96.6733200266%, 100% {
+  96.4763918252%, 100% {
     content: "​This is my ";
     content: "​This is my "/"This is my website.";
     alt: "This is my website.";
