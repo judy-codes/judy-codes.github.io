@@ -2,7 +2,7 @@
 window.onscroll = function() {myFunction()};
 
 // Get the header
-var header = document.getElementById("connectHeader");
+var header = document.getElementById("iconHeader");
 
 // Get the offset position of the navbar
 var stickygit = header.offsetTop;
