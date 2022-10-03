@@ -1,0 +1,1792 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+/* Global */
+html {
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+header {
+  height: calc(100vh - 8em);
+  padding: 4em;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Anonymous Pro", monospace;
+  background-color: rgb(25, 25, 25);
+}
+
+.container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.website-intro::before {
+  content: "​";
+  content: "​"/"This is my website.";
+  alt: "This is my website.";
+  white-space: break-spaces;
+  will-change: content;
+  animation: typed-0 14.19s linear 1s 2 forwards, typed-0-final 0.95s linear 29.38s 1 forwards;
+}
+@keyframes typed-0-final {
+  0%, 5.2631578947% {
+    content: "​T";
+    content: "​T"/"This is my website.";
+    alt: "This is my website.";
+  }
+  5.2641578947%, 10.5263157895% {
+    content: "​Th";
+    content: "​Th"/"This is my website.";
+    alt: "This is my website.";
+  }
+  10.5273157895%, 15.7894736842% {
+    content: "​Thi";
+    content: "​Thi"/"This is my website.";
+    alt: "This is my website.";
+  }
+  15.7904736842%, 21.0526315789% {
+    content: "​This";
+    content: "​This"/"This is my website.";
+    alt: "This is my website.";
+  }
+  21.0536315789%, 26.3157894737% {
+    content: "​This ";
+    content: "​This "/"This is my website.";
+    alt: "This is my website.";
+  }
+  26.3167894737%, 31.5789473684% {
+    content: "​This i";
+    content: "​This i"/"This is my website.";
+    alt: "This is my website.";
+  }
+  31.5799473684%, 36.8421052632% {
+    content: "​This is";
+    content: "​This is"/"This is my website.";
+    alt: "This is my website.";
+  }
+  36.8431052632%, 42.1052631579% {
+    content: "​This is ";
+    content: "​This is "/"This is my website.";
+    alt: "This is my website.";
+  }
+  42.1062631579%, 47.3684210526% {
+    content: "​This is m";
+    content: "​This is m"/"This is my website.";
+    alt: "This is my website.";
+  }
+  47.3694210526%, 52.6315789474% {
+    content: "​This is my";
+    content: "​This is my"/"This is my website.";
+    alt: "This is my website.";
+  }
+  52.6325789474%, 57.8947368421% {
+    content: "​This is my ";
+    content: "​This is my "/"This is my website.";
+    alt: "This is my website.";
+  }
+  57.8957368421%, 63.1578947368% {
+    content: "​This is my w";
+    content: "​This is my w"/"This is my website.";
+    alt: "This is my website.";
+  }
+  63.1588947368%, 68.4210526316% {
+    content: "​This is my we";
+    content: "​This is my we"/"This is my website.";
+    alt: "This is my website.";
+  }
+  68.4220526316%, 73.6842105263% {
+    content: "​This is my web";
+    content: "​This is my web"/"This is my website.";
+    alt: "This is my website.";
+  }
+  73.6852105263%, 78.9473684211% {
+    content: "​This is my webs";
+    content: "​This is my webs"/"This is my website.";
+    alt: "This is my website.";
+  }
+  78.9483684211%, 84.2105263158% {
+    content: "​This is my websi";
+    content: "​This is my websi"/"This is my website.";
+    alt: "This is my website.";
+  }
+  84.2115263158%, 89.4736842105% {
+    content: "​This is my websit";
+    content: "​This is my websit"/"This is my website.";
+    alt: "This is my website.";
+  }
+  89.4746842105%, 94.7368421053% {
+    content: "​This is my website";
+    content: "​This is my website"/"This is my website.";
+    alt: "This is my website.";
+  }
+  94.7378421053%, 100% {
+    content: "​This is my website.";
+    content: "​This is my website."/"This is my website.";
+    alt: "This is my website.";
+  }
+}
+.website-intro::after {
+  content: "​";
+  position: relative;
+  display: inline-block;
+  padding-right: 0.1ch;
+  border-right: 2px solid currentColor;
+  white-space: nowrap;
+  animation: typed-0-caret 0.75s linear 1s infinite forwards;
+}
+@keyframes typed-0 {
+  0%, 0.3513608175% {
+    content: "​T";
+    content: "​T"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  0.3523608175%, 0.703721635% {
+    content: "​Th";
+    content: "​Th"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  0.704721635%, 1.0560824524% {
+    content: "​Thi";
+    content: "​Thi"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  1.0570824524%, 1.4084432699% {
+    content: "​This";
+    content: "​This"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  1.4094432699%, 1.7608040874% {
+    content: "​This ";
+    content: "​This "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  1.7618040874%, 2.1131649049% {
+    content: "​This i";
+    content: "​This i"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  2.1141649049%, 2.4655257223% {
+    content: "​This is";
+    content: "​This is"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  2.4665257223%, 2.8178865398% {
+    content: "​This is ";
+    content: "​This is "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  2.8188865398%, 3.1702473573% {
+    content: "​This is m";
+    content: "​This is m"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  3.1712473573%, 3.5226081748% {
+    content: "​This is my";
+    content: "​This is my"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  3.5236081748%, 3.8749689922% {
+    content: "​This is my ";
+    content: "​This is my "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  3.8759689922%, 4.2273298097% {
+    content: "​This is my w";
+    content: "​This is my w"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  4.2283298097%, 4.5796906272% {
+    content: "​This is my we";
+    content: "​This is my we"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  4.5806906272%, 4.9320514447% {
+    content: "​This is my web";
+    content: "​This is my web"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  4.9330514447%, 5.2844122622% {
+    content: "​This is my webs";
+    content: "​This is my webs"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  5.2854122622%, 5.6367730796% {
+    content: "​This is my websi";
+    content: "​This is my websi"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  5.6377730796%, 5.9891338971% {
+    content: "​This is my websit";
+    content: "​This is my websit"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  5.9901338971%, 6.3414947146% {
+    content: "​This is my website";
+    content: "​This is my website"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  6.3424947146%, 14.0229605356% {
+    content: "​This is my website.";
+    content: "​This is my website."/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  14.0239605356%, 14.3048491896% {
+    content: "​This is my website";
+    content: "​This is my website"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  14.3058491896%, 14.5867378436% {
+    content: "​This is my websit";
+    content: "​This is my websit"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  14.5877378436%, 14.8686264975% {
+    content: "​This is my websi";
+    content: "​This is my websi"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  14.8696264975%, 15.1505151515% {
+    content: "​This is my webs";
+    content: "​This is my webs"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  15.1515151515%, 15.4324038055% {
+    content: "​This is my web";
+    content: "​This is my web"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  15.4334038055%, 15.7142924595% {
+    content: "​This is my we";
+    content: "​This is my we"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  15.7152924595%, 15.9961811135% {
+    content: "​This is my w";
+    content: "​This is my w"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  15.9971811135%, 16.2780697674% {
+    content: "​This is my ";
+    content: "​This is my "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  16.2790697674%, 16.5599584214% {
+    content: "​This is my";
+    content: "​This is my"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  16.5609584214%, 16.8418470754% {
+    content: "​This is m";
+    content: "​This is m"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  16.8428470754%, 17.1237357294% {
+    content: "​This is ";
+    content: "​This is "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  17.1247357294%, 17.4056243834% {
+    content: "​This is";
+    content: "​This is"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  17.4066243834%, 17.6875130374% {
+    content: "​This i";
+    content: "​This i"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  17.6885130374%, 17.9694016913% {
+    content: "​This ";
+    content: "​This "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  17.9704016913%, 18.2512903453% {
+    content: "​This";
+    content: "​This"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  18.2522903453%, 18.5331789993% {
+    content: "​Thi";
+    content: "​Thi"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  18.5341789993%, 18.8150676533% {
+    content: "​Th";
+    content: "​Th"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  18.8160676533%, 19.0969563073% {
+    content: "​T";
+    content: "​T"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  19.0979563073%, 22.620564482% {
+    content: "​";
+    content: "​"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  22.621564482%, 22.9729252995% {
+    content: "​T";
+    content: "​T"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  22.9739252995%, 23.325286117% {
+    content: "​Th";
+    content: "​Th"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  23.326286117%, 23.6776469345% {
+    content: "​The";
+    content: "​The"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  23.6786469345%, 24.0300077519% {
+    content: "​Thes";
+    content: "​Thes"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  24.0310077519%, 24.3823685694% {
+    content: "​These";
+    content: "​These"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  24.3833685694%, 24.7347293869% {
+    content: "​These ";
+    content: "​These "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  24.7357293869%, 25.0870902044% {
+    content: "​These a";
+    content: "​These a"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  25.0880902044%, 25.4394510218% {
+    content: "​These ar";
+    content: "​These ar"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  25.4404510218%, 25.7918118393% {
+    content: "​These are";
+    content: "​These are"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  25.7928118393%, 26.1441726568% {
+    content: "​These are ";
+    content: "​These are "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  26.1451726568%, 26.4965334743% {
+    content: "​These are m";
+    content: "​These are m"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  26.4975334743%, 26.8488942918% {
+    content: "​These are my";
+    content: "​These are my"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  26.8498942918%, 27.2012551092% {
+    content: "​These are my ";
+    content: "​These are my "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  27.2022551092%, 27.5536159267% {
+    content: "​These are my p";
+    content: "​These are my p"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  27.5546159267%, 27.9059767442% {
+    content: "​These are my pa";
+    content: "​These are my pa"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  27.9069767442%, 28.2583375617% {
+    content: "​These are my pas";
+    content: "​These are my pas"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  28.2593375617%, 28.6106983791% {
+    content: "​These are my pass";
+    content: "​These are my pass"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  28.6116983791%, 28.9630591966% {
+    content: "​These are my passi";
+    content: "​These are my passi"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  28.9640591966%, 29.3154200141% {
+    content: "​These are my passio";
+    content: "​These are my passio"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  29.3164200141%, 29.6677808316% {
+    content: "​These are my passion";
+    content: "​These are my passion"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  29.6687808316%, 30.020141649% {
+    content: "​These are my passions";
+    content: "​These are my passions"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  30.021141649%, 37.70160747% {
+    content: "​These are my passions.";
+    content: "​These are my passions."/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  37.70260747%, 37.983496124% {
+    content: "​These are my passions";
+    content: "​These are my passions"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  37.984496124%, 38.265384778% {
+    content: "​These are my passion";
+    content: "​These are my passion"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  38.266384778%, 38.547273432% {
+    content: "​These are my passio";
+    content: "​These are my passio"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  38.548273432%, 38.829162086% {
+    content: "​These are my passi";
+    content: "​These are my passi"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  38.830162086%, 39.11105074% {
+    content: "​These are my pass";
+    content: "​These are my pass"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  39.11205074%, 39.3929393939% {
+    content: "​These are my pas";
+    content: "​These are my pas"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  39.3939393939%, 39.6748280479% {
+    content: "​These are my pa";
+    content: "​These are my pa"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  39.6758280479%, 39.9567167019% {
+    content: "​These are my p";
+    content: "​These are my p"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  39.9577167019%, 40.2386053559% {
+    content: "​These are my ";
+    content: "​These are my "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  40.2396053559%, 40.5204940099% {
+    content: "​These are my";
+    content: "​These are my"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  40.5214940099%, 40.8023826638% {
+    content: "​These are m";
+    content: "​These are m"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  40.8033826638%, 41.0842713178% {
+    content: "​These are ";
+    content: "​These are "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  41.0852713178%, 41.3661599718% {
+    content: "​These are";
+    content: "​These are"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  41.3671599718%, 41.6480486258% {
+    content: "​These ar";
+    content: "​These ar"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  41.6490486258%, 41.9299372798% {
+    content: "​These a";
+    content: "​These a"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  41.9309372798%, 42.2118259338% {
+    content: "​These ";
+    content: "​These "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  42.2128259338%, 42.4937145877% {
+    content: "​These";
+    content: "​These"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  42.4947145877%, 42.7756032417% {
+    content: "​Thes";
+    content: "​Thes"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  42.7766032417%, 43.0574918957% {
+    content: "​The";
+    content: "​The"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  43.0584918957%, 43.3393805497% {
+    content: "​Th";
+    content: "​Th"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  43.3403805497%, 43.6212692037% {
+    content: "​T";
+    content: "​T"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  43.6222692037%, 47.1448773784% {
+    content: "​";
+    content: "​"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  47.1458773784%, 47.4972381959% {
+    content: "​T";
+    content: "​T"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  47.4982381959%, 47.8495990134% {
+    content: "​Th";
+    content: "​Th"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  47.8505990134%, 48.2019598309% {
+    content: "​Thi";
+    content: "​Thi"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  48.2029598309%, 48.5543206483% {
+    content: "​This";
+    content: "​This"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  48.5553206483%, 48.9066814658% {
+    content: "​This ";
+    content: "​This "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  48.9076814658%, 49.2590422833% {
+    content: "​This i";
+    content: "​This i"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  49.2600422833%, 49.6114031008% {
+    content: "​This is";
+    content: "​This is"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  49.6124031008%, 49.9637639183% {
+    content: "​This is ";
+    content: "​This is "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  49.9647639183%, 50.3161247357% {
+    content: "​This is m";
+    content: "​This is m"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  50.3171247357%, 50.6684855532% {
+    content: "​This is my";
+    content: "​This is my"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  50.6694855532%, 51.0208463707% {
+    content: "​This is my ";
+    content: "​This is my "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  51.0218463707%, 51.3732071882% {
+    content: "​This is my c";
+    content: "​This is my c"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  51.3742071882%, 51.7255680056% {
+    content: "​This is my ca";
+    content: "​This is my ca"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  51.7265680056%, 52.0779288231% {
+    content: "​This is my car";
+    content: "​This is my car"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  52.0789288231%, 52.4302896406% {
+    content: "​This is my care";
+    content: "​This is my care"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  52.4312896406%, 52.7826504581% {
+    content: "​This is my caree";
+    content: "​This is my caree"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  52.7836504581%, 53.1350112755% {
+    content: "​This is my career";
+    content: "​This is my career"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  53.1360112755%, 53.487372093% {
+    content: "​This is my career ";
+    content: "​This is my career "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  53.488372093%, 53.8397329105% {
+    content: "​This is my career j";
+    content: "​This is my career j"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  53.8407329105%, 54.192093728% {
+    content: "​This is my career jo";
+    content: "​This is my career jo"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  54.193093728%, 54.5444545455% {
+    content: "​This is my career jou";
+    content: "​This is my career jou"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  54.5454545455%, 54.8968153629% {
+    content: "​This is my career jour";
+    content: "​This is my career jour"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  54.8978153629%, 55.2491761804% {
+    content: "​This is my career journ";
+    content: "​This is my career journ"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  55.2501761804%, 55.6015369979% {
+    content: "​This is my career journe";
+    content: "​This is my career journe"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  55.6025369979%, 55.9538978154% {
+    content: "​This is my career journey";
+    content: "​This is my career journey"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  55.9548978154%, 63.6353636364% {
+    content: "​This is my career journey.";
+    content: "​This is my career journey."/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  63.6363636364%, 63.9172522903% {
+    content: "​This is my career journey";
+    content: "​This is my career journey"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  63.9182522903%, 64.1991409443% {
+    content: "​This is my career journe";
+    content: "​This is my career journe"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  64.2001409443%, 64.4810295983% {
+    content: "​This is my career journ";
+    content: "​This is my career journ"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  64.4820295983%, 64.7629182523% {
+    content: "​This is my career jour";
+    content: "​This is my career jour"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  64.7639182523%, 65.0448069063% {
+    content: "​This is my career jou";
+    content: "​This is my career jou"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  65.0458069063%, 65.3266955603% {
+    content: "​This is my career jo";
+    content: "​This is my career jo"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  65.3276955603%, 65.6085842142% {
+    content: "​This is my career j";
+    content: "​This is my career j"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  65.6095842142%, 65.8904728682% {
+    content: "​This is my career ";
+    content: "​This is my career "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  65.8914728682%, 66.1723615222% {
+    content: "​This is my career";
+    content: "​This is my career"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  66.1733615222%, 66.4542501762% {
+    content: "​This is my caree";
+    content: "​This is my caree"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  66.4552501762%, 66.7361388302% {
+    content: "​This is my care";
+    content: "​This is my care"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  66.7371388302%, 67.0180274841% {
+    content: "​This is my car";
+    content: "​This is my car"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  67.0190274841%, 67.2999161381% {
+    content: "​This is my ca";
+    content: "​This is my ca"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  67.3009161381%, 67.5818047921% {
+    content: "​This is my c";
+    content: "​This is my c"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  67.5828047921%, 67.8636934461% {
+    content: "​This is my ";
+    content: "​This is my "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  67.8646934461%, 68.1455821001% {
+    content: "​This is my";
+    content: "​This is my"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  68.1465821001%, 68.4274707541% {
+    content: "​This is m";
+    content: "​This is m"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  68.4284707541%, 68.709359408% {
+    content: "​This is ";
+    content: "​This is "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  68.710359408%, 68.991248062% {
+    content: "​This is";
+    content: "​This is"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  68.992248062%, 69.273136716% {
+    content: "​This i";
+    content: "​This i"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  69.274136716%, 69.55502537% {
+    content: "​This ";
+    content: "​This "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  69.55602537%, 69.836914024% {
+    content: "​This";
+    content: "​This"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  69.837914024%, 70.1188026779% {
+    content: "​Thi";
+    content: "​Thi"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  70.1198026779%, 70.4006913319% {
+    content: "​Th";
+    content: "​Th"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  70.4016913319%, 70.6825799859% {
+    content: "​T";
+    content: "​T"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  70.6835799859%, 74.2061881607% {
+    content: "​";
+    content: "​"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  74.2071881607%, 74.5585489782% {
+    content: "​T";
+    content: "​T"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  74.5595489782%, 74.9109097956% {
+    content: "​Th";
+    content: "​Th"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  74.9119097956%, 75.2632706131% {
+    content: "​The";
+    content: "​The"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  75.2642706131%, 75.6156314306% {
+    content: "​Thes";
+    content: "​Thes"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  75.6166314306%, 75.9679922481% {
+    content: "​These";
+    content: "​These"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  75.9689922481%, 76.3203530655% {
+    content: "​These ";
+    content: "​These "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  76.3213530655%, 76.672713883% {
+    content: "​These a";
+    content: "​These a"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  76.673713883%, 77.0250747005% {
+    content: "​These ar";
+    content: "​These ar"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  77.0260747005%, 77.377435518% {
+    content: "​These are";
+    content: "​These are"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  77.378435518%, 77.7297963354% {
+    content: "​These are ";
+    content: "​These are "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  77.7307963354%, 78.0821571529% {
+    content: "​These are m";
+    content: "​These are m"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  78.0831571529%, 78.4345179704% {
+    content: "​These are my";
+    content: "​These are my"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  78.4355179704%, 78.7868787879% {
+    content: "​These are my ";
+    content: "​These are my "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  78.7878787879%, 79.1392396054% {
+    content: "​These are my a";
+    content: "​These are my a"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  79.1402396054%, 79.4916004228% {
+    content: "​These are my ad";
+    content: "​These are my ad"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  79.4926004228%, 79.8439612403% {
+    content: "​These are my adv";
+    content: "​These are my adv"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  79.8449612403%, 80.1963220578% {
+    content: "​These are my adve";
+    content: "​These are my adve"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  80.1973220578%, 80.5486828753% {
+    content: "​These are my adven";
+    content: "​These are my adven"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  80.5496828753%, 80.9010436927% {
+    content: "​These are my advent";
+    content: "​These are my advent"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  80.9020436927%, 81.2534045102% {
+    content: "​These are my adventu";
+    content: "​These are my adventu"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  81.2544045102%, 81.6057653277% {
+    content: "​These are my adventur";
+    content: "​These are my adventur"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  81.6067653277%, 81.9581261452% {
+    content: "​These are my adventure";
+    content: "​These are my adventure"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  81.9591261452%, 82.3104869626% {
+    content: "​These are my adventures";
+    content: "​These are my adventures"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  82.3114869626%, 89.9919527837% {
+    content: "​These are my adventures.";
+    content: "​These are my adventures."/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  89.9929527837%, 90.2738414376% {
+    content: "​These are my adventures";
+    content: "​These are my adventures"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  90.2748414376%, 90.5557300916% {
+    content: "​These are my adventure";
+    content: "​These are my adventure"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  90.5567300916%, 90.8376187456% {
+    content: "​These are my adventur";
+    content: "​These are my adventur"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  90.8386187456%, 91.1195073996% {
+    content: "​These are my adventu";
+    content: "​These are my adventu"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  91.1205073996%, 91.4013960536% {
+    content: "​These are my advent";
+    content: "​These are my advent"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  91.4023960536%, 91.6832847075% {
+    content: "​These are my adven";
+    content: "​These are my adven"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  91.6842847075%, 91.9651733615% {
+    content: "​These are my adve";
+    content: "​These are my adve"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  91.9661733615%, 92.2470620155% {
+    content: "​These are my adv";
+    content: "​These are my adv"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  92.2480620155%, 92.5289506695% {
+    content: "​These are my ad";
+    content: "​These are my ad"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  92.5299506695%, 92.8108393235% {
+    content: "​These are my a";
+    content: "​These are my a"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  92.8118393235%, 93.0927279774% {
+    content: "​These are my ";
+    content: "​These are my "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  93.0937279774%, 93.3746166314% {
+    content: "​These are my";
+    content: "​These are my"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  93.3756166314%, 93.6565052854% {
+    content: "​These are m";
+    content: "​These are m"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  93.6575052854%, 93.9383939394% {
+    content: "​These are ";
+    content: "​These are "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  93.9393939394%, 94.2202825934% {
+    content: "​These are";
+    content: "​These are"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  94.2212825934%, 94.5021712474% {
+    content: "​These ar";
+    content: "​These ar"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  94.5031712474%, 94.7840599013% {
+    content: "​These a";
+    content: "​These a"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  94.7850599013%, 95.0659485553% {
+    content: "​These ";
+    content: "​These "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  95.0669485553%, 95.3478372093% {
+    content: "​These";
+    content: "​These"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  95.3488372093%, 95.6297258633% {
+    content: "​Thes";
+    content: "​Thes"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  95.6307258633%, 95.9116145173% {
+    content: "​The";
+    content: "​The"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  95.9126145173%, 96.1935031712% {
+    content: "​Th";
+    content: "​Th"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  96.1945031712%, 96.4753918252% {
+    content: "​T";
+    content: "​T"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  96.4763918252%, 100% {
+    content: "​";
+    content: "​"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+}
+@keyframes typed-0-caret {
+  75% {
+    border-color: transparent;
+  }
+}
+.website-intro::before {
+  font-weight: bold;
+}
+.website-intro::after {
+  border-right-width: 2px;
+}
+
+/*# sourceMappingURL=styles.css.map */
