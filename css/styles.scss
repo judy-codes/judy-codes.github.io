@@ -1,6 +1,39 @@
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 @import 'typed';
 
+// header
+header {
+    padding: 1.5rem 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    .navbar {
+        a {
+            color: white;
+            padding: 10px 20px;
+
+            &:hover {
+                background: white;
+                color: $lightorange;
+            }
+        }
+
+        .button {
+
+            background: $orange;
+            border-radius: 30px;
+
+            &:hover {
+                background: none;
+                border: 1px solid $lightorange;
+                color: $lightorange;
+            }
+        }
+    }
+}
+
 /* Global */
 html {
     height: 100%;
@@ -23,6 +56,7 @@ body {
     text-align: center;
     min-height: 100vh;
 }
+
 
 .website-intro {
     @include typed(("This is my website.": (color: blueviolet),
