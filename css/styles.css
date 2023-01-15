@@ -1,5 +1,3327 @@
 @charset "UTF-8";
-@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+.bg-image {
+  background-image: url(/img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image2 {
+  background-image: url(/img/background2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-darkblue {
+  background: linear-gradient(113.49deg, #984D38 -30.3%, #181E41 58.12%);
+}
+
+.bg-orange {
+  background: linear-gradient(214.02deg, #EA5F5F 6.04%, #EEAA55 92.95%);
+}
+
+.bg-lightorange {
+  background: #EB7B5B;
+}
+
+.bg-halfblack {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.lightorange {
+  color: #EB7B5B;
+}
+
+.black {
+  color: black;
+}
+
+.white {
+  color: white;
+}
+
+.halfwhite {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.halfblack {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.quarterwhite {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  transition: 0.2s linear;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 10px;
+  color: white;
+  background: linear-gradient(113.49deg, #984D38 -30.3%, #181E41 58.12%);
+  font-family: "Poppins", sans-serif;
+}
+
+.font2 {
+  font-family: "Playfair Display", serif;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  line-height: 120%;
+}
+
+p,
+h4,
+h5 {
+  margin: 0;
+  line-height: 180%;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.jc-center {
+  justify-content: center;
+}
+.jc-between {
+  justify-content: space-between;
+}
+.jc-around {
+  justify-content: space-around;
+}
+.jc-evenly {
+  justify-content: space-evenly;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.ai-end {
+  align-items: flex-end;
+}
+
+.ta-center {
+  text-align: center;
+}
+.ta-right {
+  text-align: right;
+}
+.ta-justify {
+  text-align: justify;
+}
+
+.flex {
+  display: flex;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.overhidden {
+  overflow: hidden;
+}
+
+[class^=col] {
+  margin: 0 1.5%;
+}
+
+.col1 {
+  width: 5.3333333333%;
+}
+
+.col2 {
+  width: 13.6666666667%;
+}
+
+.col3 {
+  width: 22%;
+}
+
+.col4 {
+  width: 30.3333333333%;
+}
+
+.col5 {
+  width: 38.6666666667%;
+}
+
+.col6 {
+  width: 47%;
+}
+
+.col7 {
+  width: 55.3333333333%;
+}
+
+.col8 {
+  width: 63.6666666667%;
+}
+
+.col9 {
+  width: 72%;
+}
+
+.col10 {
+  width: 80.3333333333%;
+}
+
+.col11 {
+  width: 88.6666666667%;
+}
+
+.col12 {
+  width: 97%;
+}
+
+.nmcol1 {
+  width: 8.3333333333%;
+}
+
+.nmcol2 {
+  width: 16.6666666667%;
+}
+
+.nmcol3 {
+  width: 25%;
+}
+
+.nmcol4 {
+  width: 33.3333333333%;
+}
+
+.nmcol5 {
+  width: 41.6666666667%;
+}
+
+.nmcol6 {
+  width: 50%;
+}
+
+.nmcol7 {
+  width: 58.3333333333%;
+}
+
+.nmcol8 {
+  width: 66.6666666667%;
+}
+
+.nmcol9 {
+  width: 75%;
+}
+
+.nmcol10 {
+  width: 83.3333333333%;
+}
+
+.nmcol11 {
+  width: 91.6666666667%;
+}
+
+.nmcol12 {
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .col1-md {
+    width: 5.3333333333%;
+  }
+  .col2-md {
+    width: 13.6666666667%;
+  }
+  .col3-md {
+    width: 22%;
+  }
+  .col4-md {
+    width: 30.3333333333%;
+  }
+  .col5-md {
+    width: 38.6666666667%;
+  }
+  .col6-md {
+    width: 47%;
+  }
+  .col7-md {
+    width: 55.3333333333%;
+  }
+  .col8-md {
+    width: 63.6666666667%;
+  }
+  .col9-md {
+    width: 72%;
+  }
+  .col10-md {
+    width: 80.3333333333%;
+  }
+  .col11-md {
+    width: 88.6666666667%;
+  }
+  .col12-md {
+    width: 97%;
+  }
+  .nmcol1-md {
+    width: 8.3333333333%;
+  }
+  .nmcol2-md {
+    width: 16.6666666667%;
+  }
+  .nmcol3-md {
+    width: 25%;
+  }
+  .nmcol4-md {
+    width: 33.3333333333%;
+  }
+  .nmcol5-md {
+    width: 41.6666666667%;
+  }
+  .nmcol6-md {
+    width: 50%;
+  }
+  .nmcol7-md {
+    width: 58.3333333333%;
+  }
+  .nmcol8-md {
+    width: 66.6666666667%;
+  }
+  .nmcol9-md {
+    width: 75%;
+  }
+  .nmcol10-md {
+    width: 83.3333333333%;
+  }
+  .nmcol11-md {
+    width: 91.6666666667%;
+  }
+  .nmcol12-md {
+    width: 100%;
+  }
+  .col-reverse-md {
+    flex-direction: column-reverse;
+  }
+  .flexcol-md {
+    flex-direction: column;
+  }
+  .jc-center-md {
+    justify-content: center;
+  }
+  .jc-between-md {
+    justify-content: space-between;
+  }
+  .jc-around-md {
+    justify-content: space-around;
+  }
+  .jc-evenly-md {
+    justify-content: space-evenly;
+  }
+  .ai-center-md {
+    align-items: center;
+  }
+  .ta-center-md {
+    text-align: center;
+  }
+  .ta-right-md {
+    text-align: right;
+  }
+  .ta-justify-md {
+    text-align: justify;
+  }
+  .flex-md {
+    display: flex;
+  }
+}
+@media screen and (max-width: 768px) {
+  .col1-s {
+    width: 5.3333333333%;
+  }
+  .col2-s {
+    width: 13.6666666667%;
+  }
+  .col3-s {
+    width: 22%;
+  }
+  .col4-s {
+    width: 30.3333333333%;
+  }
+  .col5-s {
+    width: 38.6666666667%;
+  }
+  .col6-s {
+    width: 47%;
+  }
+  .col7-s {
+    width: 55.3333333333%;
+  }
+  .col8-s {
+    width: 63.6666666667%;
+  }
+  .col9-s {
+    width: 72%;
+  }
+  .col10-s {
+    width: 80.3333333333%;
+  }
+  .col11-s {
+    width: 88.6666666667%;
+  }
+  .col12-s {
+    width: 97%;
+  }
+  .nmcol1-s {
+    width: 8.3333333333%;
+  }
+  .nmcol2-s {
+    width: 16.6666666667%;
+  }
+  .nmcol3-s {
+    width: 25%;
+  }
+  .nmcol4-s {
+    width: 33.3333333333%;
+  }
+  .nmcol5-s {
+    width: 41.6666666667%;
+  }
+  .nmcol6-s {
+    width: 50%;
+  }
+  .nmcol7-s {
+    width: 58.3333333333%;
+  }
+  .nmcol8-s {
+    width: 66.6666666667%;
+  }
+  .nmcol9-s {
+    width: 75%;
+  }
+  .nmcol10-s {
+    width: 83.3333333333%;
+  }
+  .nmcol11-s {
+    width: 91.6666666667%;
+  }
+  .nmcol12-s {
+    width: 100%;
+  }
+  .col-reverse-s {
+    flex-direction: column-reverse;
+  }
+  .flexcol-s {
+    flex-direction: column;
+  }
+  .jc-center-s {
+    justify-content: center;
+  }
+  .jc-between-s {
+    justify-content: space-between;
+  }
+  .jc-around-s {
+    justify-content: space-around;
+  }
+  .jc-evenly-s {
+    justify-content: space-evenly;
+  }
+  .ai-center-s {
+    align-items: center;
+  }
+  .ta-center-s {
+    text-align: center;
+  }
+  .ta-right-s {
+    text-align: right;
+  }
+  .ta-justify-s {
+    text-align: justify;
+  }
+  .flex-s {
+    display: flex;
+  }
+}
+@media screen and (max-width: 414px) {
+  [class^=col] {
+    width: 100%;
+  }
+  [class^=nmcol] {
+    width: 100%;
+  }
+  .col1-xs {
+    width: 5.3333333333%;
+  }
+  .col2-xs {
+    width: 13.6666666667%;
+  }
+  .col3-xs {
+    width: 22%;
+  }
+  .col4-xs {
+    width: 30.3333333333%;
+  }
+  .col5-xs {
+    width: 38.6666666667%;
+  }
+  .col6-xs {
+    width: 47%;
+  }
+  .col7-xs {
+    width: 55.3333333333%;
+  }
+  .col8-xs {
+    width: 63.6666666667%;
+  }
+  .col9-xs {
+    width: 72%;
+  }
+  .col10-xs {
+    width: 80.3333333333%;
+  }
+  .col11-xs {
+    width: 88.6666666667%;
+  }
+  .col12-xs {
+    width: 97%;
+  }
+  .nmcol1-xs {
+    width: 8.3333333333%;
+  }
+  .nmcol2-xs {
+    width: 16.6666666667%;
+  }
+  .nmcol3-xs {
+    width: 25%;
+  }
+  .nmcol4-xs {
+    width: 33.3333333333%;
+  }
+  .nmcol5-xs {
+    width: 41.6666666667%;
+  }
+  .nmcol6-xs {
+    width: 50%;
+  }
+  .nmcol7-xs {
+    width: 58.3333333333%;
+  }
+  .nmcol8-xs {
+    width: 66.6666666667%;
+  }
+  .nmcol9-xs {
+    width: 75%;
+  }
+  .nmcol10-xs {
+    width: 83.3333333333%;
+  }
+  .nmcol11-xs {
+    width: 91.6666666667%;
+  }
+  .nmcol12-xs {
+    width: 100%;
+  }
+  .col-reverse-xs {
+    flex-direction: column-reverse;
+  }
+  .flexcol-xs {
+    flex-direction: column;
+  }
+  .jc-center-xs {
+    justify-content: center;
+  }
+  .jc-between-xs {
+    justify-content: space-between;
+  }
+  .jc-around-xs {
+    justify-content: space-around;
+  }
+  .jc-evenly-xs {
+    justify-content: space-evenly;
+  }
+  .ai-center-xs {
+    align-items: center;
+  }
+  .ta-center-xs {
+    text-align: center;
+  }
+  .ta-right-xs {
+    text-align: right;
+  }
+  .ta-justify-xs {
+    text-align: justify;
+  }
+  .flex-xs {
+    display: flex;
+  }
+}
+.size1 {
+  font-size: 1rem;
+}
+
+.size2 {
+  font-size: 2rem;
+}
+
+.size3 {
+  font-size: 3rem;
+}
+
+.size4 {
+  font-size: 4rem;
+}
+
+.size5 {
+  font-size: 5rem;
+}
+
+.size6 {
+  font-size: 6rem;
+}
+
+.size7 {
+  font-size: 7rem;
+}
+
+.size8 {
+  font-size: 8rem;
+}
+
+.size9 {
+  font-size: 9rem;
+}
+
+.size10 {
+  font-size: 10rem;
+}
+
+.size11 {
+  font-size: 11rem;
+}
+
+.size12 {
+  font-size: 12rem;
+}
+
+.size13 {
+  font-size: 13rem;
+}
+
+.size14 {
+  font-size: 14rem;
+}
+
+.size15 {
+  font-size: 15rem;
+}
+
+.lh14 {
+  line-height: 140%;
+}
+
+.lh12 {
+  line-height: 120%;
+}
+
+.lh18 {
+  line-height: 180%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.hover :hover {
+  opacity: 50%;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 1024px) {
+  .size1-md {
+    font-size: 1rem;
+  }
+  .size2-md {
+    font-size: 2rem;
+  }
+  .size3-md {
+    font-size: 3rem;
+  }
+  .size4-md {
+    font-size: 4rem;
+  }
+  .size5-md {
+    font-size: 5rem;
+  }
+  .size6-md {
+    font-size: 6rem;
+  }
+  .size7-md {
+    font-size: 7rem;
+  }
+  .size8-md {
+    font-size: 8rem;
+  }
+  .size9-md {
+    font-size: 9rem;
+  }
+  .size10-md {
+    font-size: 10rem;
+  }
+  .size11-md {
+    font-size: 11rem;
+  }
+  .size12-md {
+    font-size: 12rem;
+  }
+  .size13-md {
+    font-size: 13rem;
+  }
+  .size14-md {
+    font-size: 14rem;
+  }
+  .size15-md {
+    font-size: 15rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .size1-s {
+    font-size: 1rem;
+  }
+  .size2-s {
+    font-size: 2rem;
+  }
+  .size3-s {
+    font-size: 3rem;
+  }
+  .size4-s {
+    font-size: 4rem;
+  }
+  .size5-s {
+    font-size: 5rem;
+  }
+  .size6-s {
+    font-size: 6rem;
+  }
+  .size7-s {
+    font-size: 7rem;
+  }
+  .size8-s {
+    font-size: 8rem;
+  }
+  .size9-s {
+    font-size: 9rem;
+  }
+  .size10-s {
+    font-size: 10rem;
+  }
+  .size11-s {
+    font-size: 11rem;
+  }
+  .size12-s {
+    font-size: 12rem;
+  }
+  .size13-s {
+    font-size: 13rem;
+  }
+  .size14-s {
+    font-size: 14rem;
+  }
+  .size15-s {
+    font-size: 15rem;
+  }
+}
+@media screen and (max-width: 414px) {
+  .size1-xs {
+    font-size: 1rem;
+  }
+  .size2-xs {
+    font-size: 2rem;
+  }
+  .size3-xs {
+    font-size: 3rem;
+  }
+  .size4-xs {
+    font-size: 4rem;
+  }
+  .size5-xs {
+    font-size: 5rem;
+  }
+  .size6-xs {
+    font-size: 6rem;
+  }
+  .size7-xs {
+    font-size: 7rem;
+  }
+  .size8-xs {
+    font-size: 8rem;
+  }
+  .size9-xs {
+    font-size: 9rem;
+  }
+  .size10-xs {
+    font-size: 10rem;
+  }
+  .size11-xs {
+    font-size: 11rem;
+  }
+  .size12-xs {
+    font-size: 12rem;
+  }
+  .size13-xs {
+    font-size: 13rem;
+  }
+  .size14-xs {
+    font-size: 14rem;
+  }
+  .size15-xs {
+    font-size: 15rem;
+  }
+  .lh14-xs {
+    line-height: 140%;
+  }
+}
+.space1 {
+  margin: 1rem 0;
+}
+
+.spacetop1 {
+  margin-top: 1rem;
+}
+
+.spacebottom1 {
+  margin-bottom: 1rem;
+}
+
+.spaceright1 {
+  margin-right: 1rem;
+}
+
+.spaceleft1 {
+  margin-left: 1rem;
+}
+
+.spacer1 {
+  padding: 1rem 0;
+}
+
+.padding1 {
+  padding: 1rem;
+}
+
+.paddingside1 {
+  padding: 0 1rem;
+}
+
+.paddingtop1 {
+  padding-top: 1rem;
+}
+
+.paddingbottom1 {
+  padding-bottom: 1rem;
+}
+
+.paddingright1 {
+  padding-right: 1rem;
+}
+
+.paddingleft1 {
+  padding-left: 1rem;
+}
+
+.space2 {
+  margin: 2rem 0;
+}
+
+.spacetop2 {
+  margin-top: 2rem;
+}
+
+.spacebottom2 {
+  margin-bottom: 2rem;
+}
+
+.spaceright2 {
+  margin-right: 2rem;
+}
+
+.spaceleft2 {
+  margin-left: 2rem;
+}
+
+.spacer2 {
+  padding: 2rem 0;
+}
+
+.padding2 {
+  padding: 2rem;
+}
+
+.paddingside2 {
+  padding: 0 2rem;
+}
+
+.paddingtop2 {
+  padding-top: 2rem;
+}
+
+.paddingbottom2 {
+  padding-bottom: 2rem;
+}
+
+.paddingright2 {
+  padding-right: 2rem;
+}
+
+.paddingleft2 {
+  padding-left: 2rem;
+}
+
+.space3 {
+  margin: 3rem 0;
+}
+
+.spacetop3 {
+  margin-top: 3rem;
+}
+
+.spacebottom3 {
+  margin-bottom: 3rem;
+}
+
+.spaceright3 {
+  margin-right: 3rem;
+}
+
+.spaceleft3 {
+  margin-left: 3rem;
+}
+
+.spacer3 {
+  padding: 3rem 0;
+}
+
+.padding3 {
+  padding: 3rem;
+}
+
+.paddingside3 {
+  padding: 0 3rem;
+}
+
+.paddingtop3 {
+  padding-top: 3rem;
+}
+
+.paddingbottom3 {
+  padding-bottom: 3rem;
+}
+
+.paddingright3 {
+  padding-right: 3rem;
+}
+
+.paddingleft3 {
+  padding-left: 3rem;
+}
+
+.space4 {
+  margin: 4rem 0;
+}
+
+.spacetop4 {
+  margin-top: 4rem;
+}
+
+.spacebottom4 {
+  margin-bottom: 4rem;
+}
+
+.spaceright4 {
+  margin-right: 4rem;
+}
+
+.spaceleft4 {
+  margin-left: 4rem;
+}
+
+.spacer4 {
+  padding: 4rem 0;
+}
+
+.padding4 {
+  padding: 4rem;
+}
+
+.paddingside4 {
+  padding: 0 4rem;
+}
+
+.paddingtop4 {
+  padding-top: 4rem;
+}
+
+.paddingbottom4 {
+  padding-bottom: 4rem;
+}
+
+.paddingright4 {
+  padding-right: 4rem;
+}
+
+.paddingleft4 {
+  padding-left: 4rem;
+}
+
+.space5 {
+  margin: 5rem 0;
+}
+
+.spacetop5 {
+  margin-top: 5rem;
+}
+
+.spacebottom5 {
+  margin-bottom: 5rem;
+}
+
+.spaceright5 {
+  margin-right: 5rem;
+}
+
+.spaceleft5 {
+  margin-left: 5rem;
+}
+
+.spacer5 {
+  padding: 5rem 0;
+}
+
+.padding5 {
+  padding: 5rem;
+}
+
+.paddingside5 {
+  padding: 0 5rem;
+}
+
+.paddingtop5 {
+  padding-top: 5rem;
+}
+
+.paddingbottom5 {
+  padding-bottom: 5rem;
+}
+
+.paddingright5 {
+  padding-right: 5rem;
+}
+
+.paddingleft5 {
+  padding-left: 5rem;
+}
+
+.space6 {
+  margin: 6rem 0;
+}
+
+.spacetop6 {
+  margin-top: 6rem;
+}
+
+.spacebottom6 {
+  margin-bottom: 6rem;
+}
+
+.spaceright6 {
+  margin-right: 6rem;
+}
+
+.spaceleft6 {
+  margin-left: 6rem;
+}
+
+.spacer6 {
+  padding: 6rem 0;
+}
+
+.padding6 {
+  padding: 6rem;
+}
+
+.paddingside6 {
+  padding: 0 6rem;
+}
+
+.paddingtop6 {
+  padding-top: 6rem;
+}
+
+.paddingbottom6 {
+  padding-bottom: 6rem;
+}
+
+.paddingright6 {
+  padding-right: 6rem;
+}
+
+.paddingleft6 {
+  padding-left: 6rem;
+}
+
+.space7 {
+  margin: 7rem 0;
+}
+
+.spacetop7 {
+  margin-top: 7rem;
+}
+
+.spacebottom7 {
+  margin-bottom: 7rem;
+}
+
+.spaceright7 {
+  margin-right: 7rem;
+}
+
+.spaceleft7 {
+  margin-left: 7rem;
+}
+
+.spacer7 {
+  padding: 7rem 0;
+}
+
+.padding7 {
+  padding: 7rem;
+}
+
+.paddingside7 {
+  padding: 0 7rem;
+}
+
+.paddingtop7 {
+  padding-top: 7rem;
+}
+
+.paddingbottom7 {
+  padding-bottom: 7rem;
+}
+
+.paddingright7 {
+  padding-right: 7rem;
+}
+
+.paddingleft7 {
+  padding-left: 7rem;
+}
+
+.space8 {
+  margin: 8rem 0;
+}
+
+.spacetop8 {
+  margin-top: 8rem;
+}
+
+.spacebottom8 {
+  margin-bottom: 8rem;
+}
+
+.spaceright8 {
+  margin-right: 8rem;
+}
+
+.spaceleft8 {
+  margin-left: 8rem;
+}
+
+.spacer8 {
+  padding: 8rem 0;
+}
+
+.padding8 {
+  padding: 8rem;
+}
+
+.paddingside8 {
+  padding: 0 8rem;
+}
+
+.paddingtop8 {
+  padding-top: 8rem;
+}
+
+.paddingbottom8 {
+  padding-bottom: 8rem;
+}
+
+.paddingright8 {
+  padding-right: 8rem;
+}
+
+.paddingleft8 {
+  padding-left: 8rem;
+}
+
+.space9 {
+  margin: 9rem 0;
+}
+
+.spacetop9 {
+  margin-top: 9rem;
+}
+
+.spacebottom9 {
+  margin-bottom: 9rem;
+}
+
+.spaceright9 {
+  margin-right: 9rem;
+}
+
+.spaceleft9 {
+  margin-left: 9rem;
+}
+
+.spacer9 {
+  padding: 9rem 0;
+}
+
+.padding9 {
+  padding: 9rem;
+}
+
+.paddingside9 {
+  padding: 0 9rem;
+}
+
+.paddingtop9 {
+  padding-top: 9rem;
+}
+
+.paddingbottom9 {
+  padding-bottom: 9rem;
+}
+
+.paddingright9 {
+  padding-right: 9rem;
+}
+
+.paddingleft9 {
+  padding-left: 9rem;
+}
+
+.space10 {
+  margin: 10rem 0;
+}
+
+.spacetop10 {
+  margin-top: 10rem;
+}
+
+.spacebottom10 {
+  margin-bottom: 10rem;
+}
+
+.spaceright10 {
+  margin-right: 10rem;
+}
+
+.spaceleft10 {
+  margin-left: 10rem;
+}
+
+.spacer10 {
+  padding: 10rem 0;
+}
+
+.padding10 {
+  padding: 10rem;
+}
+
+.paddingside10 {
+  padding: 0 10rem;
+}
+
+.paddingtop10 {
+  padding-top: 10rem;
+}
+
+.paddingbottom10 {
+  padding-bottom: 10rem;
+}
+
+.paddingright10 {
+  padding-right: 10rem;
+}
+
+.paddingleft10 {
+  padding-left: 10rem;
+}
+
+.space11 {
+  margin: 11rem 0;
+}
+
+.spacetop11 {
+  margin-top: 11rem;
+}
+
+.spacebottom11 {
+  margin-bottom: 11rem;
+}
+
+.spaceright11 {
+  margin-right: 11rem;
+}
+
+.spaceleft11 {
+  margin-left: 11rem;
+}
+
+.spacer11 {
+  padding: 11rem 0;
+}
+
+.padding11 {
+  padding: 11rem;
+}
+
+.paddingside11 {
+  padding: 0 11rem;
+}
+
+.paddingtop11 {
+  padding-top: 11rem;
+}
+
+.paddingbottom11 {
+  padding-bottom: 11rem;
+}
+
+.paddingright11 {
+  padding-right: 11rem;
+}
+
+.paddingleft11 {
+  padding-left: 11rem;
+}
+
+.space12 {
+  margin: 12rem 0;
+}
+
+.spacetop12 {
+  margin-top: 12rem;
+}
+
+.spacebottom12 {
+  margin-bottom: 12rem;
+}
+
+.spaceright12 {
+  margin-right: 12rem;
+}
+
+.spaceleft12 {
+  margin-left: 12rem;
+}
+
+.spacer12 {
+  padding: 12rem 0;
+}
+
+.padding12 {
+  padding: 12rem;
+}
+
+.paddingside12 {
+  padding: 0 12rem;
+}
+
+.paddingtop12 {
+  padding-top: 12rem;
+}
+
+.paddingbottom12 {
+  padding-bottom: 12rem;
+}
+
+.paddingright12 {
+  padding-right: 12rem;
+}
+
+.paddingleft12 {
+  padding-left: 12rem;
+}
+
+.space13 {
+  margin: 13rem 0;
+}
+
+.spacetop13 {
+  margin-top: 13rem;
+}
+
+.spacebottom13 {
+  margin-bottom: 13rem;
+}
+
+.spaceright13 {
+  margin-right: 13rem;
+}
+
+.spaceleft13 {
+  margin-left: 13rem;
+}
+
+.spacer13 {
+  padding: 13rem 0;
+}
+
+.padding13 {
+  padding: 13rem;
+}
+
+.paddingside13 {
+  padding: 0 13rem;
+}
+
+.paddingtop13 {
+  padding-top: 13rem;
+}
+
+.paddingbottom13 {
+  padding-bottom: 13rem;
+}
+
+.paddingright13 {
+  padding-right: 13rem;
+}
+
+.paddingleft13 {
+  padding-left: 13rem;
+}
+
+.space14 {
+  margin: 14rem 0;
+}
+
+.spacetop14 {
+  margin-top: 14rem;
+}
+
+.spacebottom14 {
+  margin-bottom: 14rem;
+}
+
+.spaceright14 {
+  margin-right: 14rem;
+}
+
+.spaceleft14 {
+  margin-left: 14rem;
+}
+
+.spacer14 {
+  padding: 14rem 0;
+}
+
+.padding14 {
+  padding: 14rem;
+}
+
+.paddingside14 {
+  padding: 0 14rem;
+}
+
+.paddingtop14 {
+  padding-top: 14rem;
+}
+
+.paddingbottom14 {
+  padding-bottom: 14rem;
+}
+
+.paddingright14 {
+  padding-right: 14rem;
+}
+
+.paddingleft14 {
+  padding-left: 14rem;
+}
+
+.space15 {
+  margin: 15rem 0;
+}
+
+.spacetop15 {
+  margin-top: 15rem;
+}
+
+.spacebottom15 {
+  margin-bottom: 15rem;
+}
+
+.spaceright15 {
+  margin-right: 15rem;
+}
+
+.spaceleft15 {
+  margin-left: 15rem;
+}
+
+.spacer15 {
+  padding: 15rem 0;
+}
+
+.padding15 {
+  padding: 15rem;
+}
+
+.paddingside15 {
+  padding: 0 15rem;
+}
+
+.paddingtop15 {
+  padding-top: 15rem;
+}
+
+.paddingbottom15 {
+  padding-bottom: 15rem;
+}
+
+.paddingright15 {
+  padding-right: 15rem;
+}
+
+.paddingleft15 {
+  padding-left: 15rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .spacetop0-md {
+    margin-top: 0rem;
+  }
+  .spacebottom0-md {
+    margin-bottom: 0rem;
+  }
+  .spaceright0-md {
+    margin-right: 0rem;
+  }
+  .spaceleft0-md {
+    margin-left: 0rem;
+  }
+  .spacer0-md {
+    padding: 0rem 0;
+  }
+  .padding0-md {
+    padding: 0rem;
+  }
+  .paddingside0-md {
+    padding: 0 0rem;
+  }
+  .paddingtop0-md {
+    padding-top: 0rem;
+  }
+  .paddingbottom0-md {
+    padding-bottom: 0rem;
+  }
+  .paddingright0-md {
+    padding-right: 0rem;
+  }
+  .paddingleft0-md {
+    padding-left: 0rem;
+  }
+  .spacetop1-md {
+    margin-top: 1rem;
+  }
+  .spacebottom1-md {
+    margin-bottom: 1rem;
+  }
+  .spaceright1-md {
+    margin-right: 1rem;
+  }
+  .spaceleft1-md {
+    margin-left: 1rem;
+  }
+  .spacer1-md {
+    padding: 1rem 0;
+  }
+  .padding1-md {
+    padding: 1rem;
+  }
+  .paddingside1-md {
+    padding: 0 1rem;
+  }
+  .paddingtop1-md {
+    padding-top: 1rem;
+  }
+  .paddingbottom1-md {
+    padding-bottom: 1rem;
+  }
+  .paddingright1-md {
+    padding-right: 1rem;
+  }
+  .paddingleft1-md {
+    padding-left: 1rem;
+  }
+  .spacetop2-md {
+    margin-top: 2rem;
+  }
+  .spacebottom2-md {
+    margin-bottom: 2rem;
+  }
+  .spaceright2-md {
+    margin-right: 2rem;
+  }
+  .spaceleft2-md {
+    margin-left: 2rem;
+  }
+  .spacer2-md {
+    padding: 2rem 0;
+  }
+  .padding2-md {
+    padding: 2rem;
+  }
+  .paddingside2-md {
+    padding: 0 2rem;
+  }
+  .paddingtop2-md {
+    padding-top: 2rem;
+  }
+  .paddingbottom2-md {
+    padding-bottom: 2rem;
+  }
+  .paddingright2-md {
+    padding-right: 2rem;
+  }
+  .paddingleft2-md {
+    padding-left: 2rem;
+  }
+  .spacetop3-md {
+    margin-top: 3rem;
+  }
+  .spacebottom3-md {
+    margin-bottom: 3rem;
+  }
+  .spaceright3-md {
+    margin-right: 3rem;
+  }
+  .spaceleft3-md {
+    margin-left: 3rem;
+  }
+  .spacer3-md {
+    padding: 3rem 0;
+  }
+  .padding3-md {
+    padding: 3rem;
+  }
+  .paddingside3-md {
+    padding: 0 3rem;
+  }
+  .paddingtop3-md {
+    padding-top: 3rem;
+  }
+  .paddingbottom3-md {
+    padding-bottom: 3rem;
+  }
+  .paddingright3-md {
+    padding-right: 3rem;
+  }
+  .paddingleft3-md {
+    padding-left: 3rem;
+  }
+  .spacetop4-md {
+    margin-top: 4rem;
+  }
+  .spacebottom4-md {
+    margin-bottom: 4rem;
+  }
+  .spaceright4-md {
+    margin-right: 4rem;
+  }
+  .spaceleft4-md {
+    margin-left: 4rem;
+  }
+  .spacer4-md {
+    padding: 4rem 0;
+  }
+  .padding4-md {
+    padding: 4rem;
+  }
+  .paddingside4-md {
+    padding: 0 4rem;
+  }
+  .paddingtop4-md {
+    padding-top: 4rem;
+  }
+  .paddingbottom4-md {
+    padding-bottom: 4rem;
+  }
+  .paddingright4-md {
+    padding-right: 4rem;
+  }
+  .paddingleft4-md {
+    padding-left: 4rem;
+  }
+  .spacetop5-md {
+    margin-top: 5rem;
+  }
+  .spacebottom5-md {
+    margin-bottom: 5rem;
+  }
+  .spaceright5-md {
+    margin-right: 5rem;
+  }
+  .spaceleft5-md {
+    margin-left: 5rem;
+  }
+  .spacer5-md {
+    padding: 5rem 0;
+  }
+  .padding5-md {
+    padding: 5rem;
+  }
+  .paddingside5-md {
+    padding: 0 5rem;
+  }
+  .paddingtop5-md {
+    padding-top: 5rem;
+  }
+  .paddingbottom5-md {
+    padding-bottom: 5rem;
+  }
+  .paddingright5-md {
+    padding-right: 5rem;
+  }
+  .paddingleft5-md {
+    padding-left: 5rem;
+  }
+  .spacetop6-md {
+    margin-top: 6rem;
+  }
+  .spacebottom6-md {
+    margin-bottom: 6rem;
+  }
+  .spaceright6-md {
+    margin-right: 6rem;
+  }
+  .spaceleft6-md {
+    margin-left: 6rem;
+  }
+  .spacer6-md {
+    padding: 6rem 0;
+  }
+  .padding6-md {
+    padding: 6rem;
+  }
+  .paddingside6-md {
+    padding: 0 6rem;
+  }
+  .paddingtop6-md {
+    padding-top: 6rem;
+  }
+  .paddingbottom6-md {
+    padding-bottom: 6rem;
+  }
+  .paddingright6-md {
+    padding-right: 6rem;
+  }
+  .paddingleft6-md {
+    padding-left: 6rem;
+  }
+  .spacetop7-md {
+    margin-top: 7rem;
+  }
+  .spacebottom7-md {
+    margin-bottom: 7rem;
+  }
+  .spaceright7-md {
+    margin-right: 7rem;
+  }
+  .spaceleft7-md {
+    margin-left: 7rem;
+  }
+  .spacer7-md {
+    padding: 7rem 0;
+  }
+  .padding7-md {
+    padding: 7rem;
+  }
+  .paddingside7-md {
+    padding: 0 7rem;
+  }
+  .paddingtop7-md {
+    padding-top: 7rem;
+  }
+  .paddingbottom7-md {
+    padding-bottom: 7rem;
+  }
+  .paddingright7-md {
+    padding-right: 7rem;
+  }
+  .paddingleft7-md {
+    padding-left: 7rem;
+  }
+  .spacetop8-md {
+    margin-top: 8rem;
+  }
+  .spacebottom8-md {
+    margin-bottom: 8rem;
+  }
+  .spaceright8-md {
+    margin-right: 8rem;
+  }
+  .spaceleft8-md {
+    margin-left: 8rem;
+  }
+  .spacer8-md {
+    padding: 8rem 0;
+  }
+  .padding8-md {
+    padding: 8rem;
+  }
+  .paddingside8-md {
+    padding: 0 8rem;
+  }
+  .paddingtop8-md {
+    padding-top: 8rem;
+  }
+  .paddingbottom8-md {
+    padding-bottom: 8rem;
+  }
+  .paddingright8-md {
+    padding-right: 8rem;
+  }
+  .paddingleft8-md {
+    padding-left: 8rem;
+  }
+  .spacetop9-md {
+    margin-top: 9rem;
+  }
+  .spacebottom9-md {
+    margin-bottom: 9rem;
+  }
+  .spaceright9-md {
+    margin-right: 9rem;
+  }
+  .spaceleft9-md {
+    margin-left: 9rem;
+  }
+  .spacer9-md {
+    padding: 9rem 0;
+  }
+  .padding9-md {
+    padding: 9rem;
+  }
+  .paddingside9-md {
+    padding: 0 9rem;
+  }
+  .paddingtop9-md {
+    padding-top: 9rem;
+  }
+  .paddingbottom9-md {
+    padding-bottom: 9rem;
+  }
+  .paddingright9-md {
+    padding-right: 9rem;
+  }
+  .paddingleft9-md {
+    padding-left: 9rem;
+  }
+  .spacetop10-md {
+    margin-top: 10rem;
+  }
+  .spacebottom10-md {
+    margin-bottom: 10rem;
+  }
+  .spaceright10-md {
+    margin-right: 10rem;
+  }
+  .spaceleft10-md {
+    margin-left: 10rem;
+  }
+  .spacer10-md {
+    padding: 10rem 0;
+  }
+  .padding10-md {
+    padding: 10rem;
+  }
+  .paddingside10-md {
+    padding: 0 10rem;
+  }
+  .paddingtop10-md {
+    padding-top: 10rem;
+  }
+  .paddingbottom10-md {
+    padding-bottom: 10rem;
+  }
+  .paddingright10-md {
+    padding-right: 10rem;
+  }
+  .paddingleft10-md {
+    padding-left: 10rem;
+  }
+  .spacetop11-md {
+    margin-top: 11rem;
+  }
+  .spacebottom11-md {
+    margin-bottom: 11rem;
+  }
+  .spaceright11-md {
+    margin-right: 11rem;
+  }
+  .spaceleft11-md {
+    margin-left: 11rem;
+  }
+  .spacer11-md {
+    padding: 11rem 0;
+  }
+  .padding11-md {
+    padding: 11rem;
+  }
+  .paddingside11-md {
+    padding: 0 11rem;
+  }
+  .paddingtop11-md {
+    padding-top: 11rem;
+  }
+  .paddingbottom11-md {
+    padding-bottom: 11rem;
+  }
+  .paddingright11-md {
+    padding-right: 11rem;
+  }
+  .paddingleft11-md {
+    padding-left: 11rem;
+  }
+  .spacetop12-md {
+    margin-top: 12rem;
+  }
+  .spacebottom12-md {
+    margin-bottom: 12rem;
+  }
+  .spaceright12-md {
+    margin-right: 12rem;
+  }
+  .spaceleft12-md {
+    margin-left: 12rem;
+  }
+  .spacer12-md {
+    padding: 12rem 0;
+  }
+  .padding12-md {
+    padding: 12rem;
+  }
+  .paddingside12-md {
+    padding: 0 12rem;
+  }
+  .paddingtop12-md {
+    padding-top: 12rem;
+  }
+  .paddingbottom12-md {
+    padding-bottom: 12rem;
+  }
+  .paddingright12-md {
+    padding-right: 12rem;
+  }
+  .paddingleft12-md {
+    padding-left: 12rem;
+  }
+  .spacetop13-md {
+    margin-top: 13rem;
+  }
+  .spacebottom13-md {
+    margin-bottom: 13rem;
+  }
+  .spaceright13-md {
+    margin-right: 13rem;
+  }
+  .spaceleft13-md {
+    margin-left: 13rem;
+  }
+  .spacer13-md {
+    padding: 13rem 0;
+  }
+  .padding13-md {
+    padding: 13rem;
+  }
+  .paddingside13-md {
+    padding: 0 13rem;
+  }
+  .paddingtop13-md {
+    padding-top: 13rem;
+  }
+  .paddingbottom13-md {
+    padding-bottom: 13rem;
+  }
+  .paddingright13-md {
+    padding-right: 13rem;
+  }
+  .paddingleft13-md {
+    padding-left: 13rem;
+  }
+  .spacetop14-md {
+    margin-top: 14rem;
+  }
+  .spacebottom14-md {
+    margin-bottom: 14rem;
+  }
+  .spaceright14-md {
+    margin-right: 14rem;
+  }
+  .spaceleft14-md {
+    margin-left: 14rem;
+  }
+  .spacer14-md {
+    padding: 14rem 0;
+  }
+  .padding14-md {
+    padding: 14rem;
+  }
+  .paddingside14-md {
+    padding: 0 14rem;
+  }
+  .paddingtop14-md {
+    padding-top: 14rem;
+  }
+  .paddingbottom14-md {
+    padding-bottom: 14rem;
+  }
+  .paddingright14-md {
+    padding-right: 14rem;
+  }
+  .paddingleft14-md {
+    padding-left: 14rem;
+  }
+  .spacetop15-md {
+    margin-top: 15rem;
+  }
+  .spacebottom15-md {
+    margin-bottom: 15rem;
+  }
+  .spaceright15-md {
+    margin-right: 15rem;
+  }
+  .spaceleft15-md {
+    margin-left: 15rem;
+  }
+  .spacer15-md {
+    padding: 15rem 0;
+  }
+  .padding15-md {
+    padding: 15rem;
+  }
+  .paddingside15-md {
+    padding: 0 15rem;
+  }
+  .paddingtop15-md {
+    padding-top: 15rem;
+  }
+  .paddingbottom15-md {
+    padding-bottom: 15rem;
+  }
+  .paddingright15-md {
+    padding-right: 15rem;
+  }
+  .paddingleft15-md {
+    padding-left: 15rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .spacetop0-s {
+    margin-top: 0rem;
+  }
+  .spacebottom0-s {
+    margin-bottom: 0rem;
+  }
+  .spaceright0-s {
+    margin-right: 0rem;
+  }
+  .spaceleft0-s {
+    margin-left: 0rem;
+  }
+  .spacer0-s {
+    padding: 0rem 0;
+  }
+  .padding0-s {
+    padding: 0rem;
+  }
+  .paddingside0-s {
+    padding: 0 0rem;
+  }
+  .paddingtop0-s {
+    padding-top: 0rem;
+  }
+  .paddingbottom0-s {
+    padding-bottom: 0rem;
+  }
+  .paddingright0-s {
+    padding-right: 0rem;
+  }
+  .paddingleft0-s {
+    padding-left: 0rem;
+  }
+  .spacetop1-s {
+    margin-top: 1rem;
+  }
+  .spacebottom1-s {
+    margin-bottom: 1rem;
+  }
+  .spaceright1-s {
+    margin-right: 1rem;
+  }
+  .spaceleft1-s {
+    margin-left: 1rem;
+  }
+  .spacer1-s {
+    padding: 1rem 0;
+  }
+  .padding1-s {
+    padding: 1rem;
+  }
+  .paddingside1-s {
+    padding: 0 1rem;
+  }
+  .paddingtop1-s {
+    padding-top: 1rem;
+  }
+  .paddingbottom1-s {
+    padding-bottom: 1rem;
+  }
+  .paddingright1-s {
+    padding-right: 1rem;
+  }
+  .paddingleft1-s {
+    padding-left: 1rem;
+  }
+  .spacetop2-s {
+    margin-top: 2rem;
+  }
+  .spacebottom2-s {
+    margin-bottom: 2rem;
+  }
+  .spaceright2-s {
+    margin-right: 2rem;
+  }
+  .spaceleft2-s {
+    margin-left: 2rem;
+  }
+  .spacer2-s {
+    padding: 2rem 0;
+  }
+  .padding2-s {
+    padding: 2rem;
+  }
+  .paddingside2-s {
+    padding: 0 2rem;
+  }
+  .paddingtop2-s {
+    padding-top: 2rem;
+  }
+  .paddingbottom2-s {
+    padding-bottom: 2rem;
+  }
+  .paddingright2-s {
+    padding-right: 2rem;
+  }
+  .paddingleft2-s {
+    padding-left: 2rem;
+  }
+  .spacetop3-s {
+    margin-top: 3rem;
+  }
+  .spacebottom3-s {
+    margin-bottom: 3rem;
+  }
+  .spaceright3-s {
+    margin-right: 3rem;
+  }
+  .spaceleft3-s {
+    margin-left: 3rem;
+  }
+  .spacer3-s {
+    padding: 3rem 0;
+  }
+  .padding3-s {
+    padding: 3rem;
+  }
+  .paddingside3-s {
+    padding: 0 3rem;
+  }
+  .paddingtop3-s {
+    padding-top: 3rem;
+  }
+  .paddingbottom3-s {
+    padding-bottom: 3rem;
+  }
+  .paddingright3-s {
+    padding-right: 3rem;
+  }
+  .paddingleft3-s {
+    padding-left: 3rem;
+  }
+  .spacetop4-s {
+    margin-top: 4rem;
+  }
+  .spacebottom4-s {
+    margin-bottom: 4rem;
+  }
+  .spaceright4-s {
+    margin-right: 4rem;
+  }
+  .spaceleft4-s {
+    margin-left: 4rem;
+  }
+  .spacer4-s {
+    padding: 4rem 0;
+  }
+  .padding4-s {
+    padding: 4rem;
+  }
+  .paddingside4-s {
+    padding: 0 4rem;
+  }
+  .paddingtop4-s {
+    padding-top: 4rem;
+  }
+  .paddingbottom4-s {
+    padding-bottom: 4rem;
+  }
+  .paddingright4-s {
+    padding-right: 4rem;
+  }
+  .paddingleft4-s {
+    padding-left: 4rem;
+  }
+  .spacetop5-s {
+    margin-top: 5rem;
+  }
+  .spacebottom5-s {
+    margin-bottom: 5rem;
+  }
+  .spaceright5-s {
+    margin-right: 5rem;
+  }
+  .spaceleft5-s {
+    margin-left: 5rem;
+  }
+  .spacer5-s {
+    padding: 5rem 0;
+  }
+  .padding5-s {
+    padding: 5rem;
+  }
+  .paddingside5-s {
+    padding: 0 5rem;
+  }
+  .paddingtop5-s {
+    padding-top: 5rem;
+  }
+  .paddingbottom5-s {
+    padding-bottom: 5rem;
+  }
+  .paddingright5-s {
+    padding-right: 5rem;
+  }
+  .paddingleft5-s {
+    padding-left: 5rem;
+  }
+  .spacetop6-s {
+    margin-top: 6rem;
+  }
+  .spacebottom6-s {
+    margin-bottom: 6rem;
+  }
+  .spaceright6-s {
+    margin-right: 6rem;
+  }
+  .spaceleft6-s {
+    margin-left: 6rem;
+  }
+  .spacer6-s {
+    padding: 6rem 0;
+  }
+  .padding6-s {
+    padding: 6rem;
+  }
+  .paddingside6-s {
+    padding: 0 6rem;
+  }
+  .paddingtop6-s {
+    padding-top: 6rem;
+  }
+  .paddingbottom6-s {
+    padding-bottom: 6rem;
+  }
+  .paddingright6-s {
+    padding-right: 6rem;
+  }
+  .paddingleft6-s {
+    padding-left: 6rem;
+  }
+  .spacetop7-s {
+    margin-top: 7rem;
+  }
+  .spacebottom7-s {
+    margin-bottom: 7rem;
+  }
+  .spaceright7-s {
+    margin-right: 7rem;
+  }
+  .spaceleft7-s {
+    margin-left: 7rem;
+  }
+  .spacer7-s {
+    padding: 7rem 0;
+  }
+  .padding7-s {
+    padding: 7rem;
+  }
+  .paddingside7-s {
+    padding: 0 7rem;
+  }
+  .paddingtop7-s {
+    padding-top: 7rem;
+  }
+  .paddingbottom7-s {
+    padding-bottom: 7rem;
+  }
+  .paddingright7-s {
+    padding-right: 7rem;
+  }
+  .paddingleft7-s {
+    padding-left: 7rem;
+  }
+  .spacetop8-s {
+    margin-top: 8rem;
+  }
+  .spacebottom8-s {
+    margin-bottom: 8rem;
+  }
+  .spaceright8-s {
+    margin-right: 8rem;
+  }
+  .spaceleft8-s {
+    margin-left: 8rem;
+  }
+  .spacer8-s {
+    padding: 8rem 0;
+  }
+  .padding8-s {
+    padding: 8rem;
+  }
+  .paddingside8-s {
+    padding: 0 8rem;
+  }
+  .paddingtop8-s {
+    padding-top: 8rem;
+  }
+  .paddingbottom8-s {
+    padding-bottom: 8rem;
+  }
+  .paddingright8-s {
+    padding-right: 8rem;
+  }
+  .paddingleft8-s {
+    padding-left: 8rem;
+  }
+  .spacetop9-s {
+    margin-top: 9rem;
+  }
+  .spacebottom9-s {
+    margin-bottom: 9rem;
+  }
+  .spaceright9-s {
+    margin-right: 9rem;
+  }
+  .spaceleft9-s {
+    margin-left: 9rem;
+  }
+  .spacer9-s {
+    padding: 9rem 0;
+  }
+  .padding9-s {
+    padding: 9rem;
+  }
+  .paddingside9-s {
+    padding: 0 9rem;
+  }
+  .paddingtop9-s {
+    padding-top: 9rem;
+  }
+  .paddingbottom9-s {
+    padding-bottom: 9rem;
+  }
+  .paddingright9-s {
+    padding-right: 9rem;
+  }
+  .paddingleft9-s {
+    padding-left: 9rem;
+  }
+  .spacetop10-s {
+    margin-top: 10rem;
+  }
+  .spacebottom10-s {
+    margin-bottom: 10rem;
+  }
+  .spaceright10-s {
+    margin-right: 10rem;
+  }
+  .spaceleft10-s {
+    margin-left: 10rem;
+  }
+  .spacer10-s {
+    padding: 10rem 0;
+  }
+  .padding10-s {
+    padding: 10rem;
+  }
+  .paddingside10-s {
+    padding: 0 10rem;
+  }
+  .paddingtop10-s {
+    padding-top: 10rem;
+  }
+  .paddingbottom10-s {
+    padding-bottom: 10rem;
+  }
+  .paddingright10-s {
+    padding-right: 10rem;
+  }
+  .paddingleft10-s {
+    padding-left: 10rem;
+  }
+  .spacetop11-s {
+    margin-top: 11rem;
+  }
+  .spacebottom11-s {
+    margin-bottom: 11rem;
+  }
+  .spaceright11-s {
+    margin-right: 11rem;
+  }
+  .spaceleft11-s {
+    margin-left: 11rem;
+  }
+  .spacer11-s {
+    padding: 11rem 0;
+  }
+  .padding11-s {
+    padding: 11rem;
+  }
+  .paddingside11-s {
+    padding: 0 11rem;
+  }
+  .paddingtop11-s {
+    padding-top: 11rem;
+  }
+  .paddingbottom11-s {
+    padding-bottom: 11rem;
+  }
+  .paddingright11-s {
+    padding-right: 11rem;
+  }
+  .paddingleft11-s {
+    padding-left: 11rem;
+  }
+  .spacetop12-s {
+    margin-top: 12rem;
+  }
+  .spacebottom12-s {
+    margin-bottom: 12rem;
+  }
+  .spaceright12-s {
+    margin-right: 12rem;
+  }
+  .spaceleft12-s {
+    margin-left: 12rem;
+  }
+  .spacer12-s {
+    padding: 12rem 0;
+  }
+  .padding12-s {
+    padding: 12rem;
+  }
+  .paddingside12-s {
+    padding: 0 12rem;
+  }
+  .paddingtop12-s {
+    padding-top: 12rem;
+  }
+  .paddingbottom12-s {
+    padding-bottom: 12rem;
+  }
+  .paddingright12-s {
+    padding-right: 12rem;
+  }
+  .paddingleft12-s {
+    padding-left: 12rem;
+  }
+  .spacetop13-s {
+    margin-top: 13rem;
+  }
+  .spacebottom13-s {
+    margin-bottom: 13rem;
+  }
+  .spaceright13-s {
+    margin-right: 13rem;
+  }
+  .spaceleft13-s {
+    margin-left: 13rem;
+  }
+  .spacer13-s {
+    padding: 13rem 0;
+  }
+  .padding13-s {
+    padding: 13rem;
+  }
+  .paddingside13-s {
+    padding: 0 13rem;
+  }
+  .paddingtop13-s {
+    padding-top: 13rem;
+  }
+  .paddingbottom13-s {
+    padding-bottom: 13rem;
+  }
+  .paddingright13-s {
+    padding-right: 13rem;
+  }
+  .paddingleft13-s {
+    padding-left: 13rem;
+  }
+  .spacetop14-s {
+    margin-top: 14rem;
+  }
+  .spacebottom14-s {
+    margin-bottom: 14rem;
+  }
+  .spaceright14-s {
+    margin-right: 14rem;
+  }
+  .spaceleft14-s {
+    margin-left: 14rem;
+  }
+  .spacer14-s {
+    padding: 14rem 0;
+  }
+  .padding14-s {
+    padding: 14rem;
+  }
+  .paddingside14-s {
+    padding: 0 14rem;
+  }
+  .paddingtop14-s {
+    padding-top: 14rem;
+  }
+  .paddingbottom14-s {
+    padding-bottom: 14rem;
+  }
+  .paddingright14-s {
+    padding-right: 14rem;
+  }
+  .paddingleft14-s {
+    padding-left: 14rem;
+  }
+  .spacetop15-s {
+    margin-top: 15rem;
+  }
+  .spacebottom15-s {
+    margin-bottom: 15rem;
+  }
+  .spaceright15-s {
+    margin-right: 15rem;
+  }
+  .spaceleft15-s {
+    margin-left: 15rem;
+  }
+  .spacer15-s {
+    padding: 15rem 0;
+  }
+  .padding15-s {
+    padding: 15rem;
+  }
+  .paddingside15-s {
+    padding: 0 15rem;
+  }
+  .paddingtop15-s {
+    padding-top: 15rem;
+  }
+  .paddingbottom15-s {
+    padding-bottom: 15rem;
+  }
+  .paddingright15-s {
+    padding-right: 15rem;
+  }
+  .paddingleft15-s {
+    padding-left: 15rem;
+  }
+}
+@media screen and (max-width: 414px) {
+  .spacetop0-xs {
+    margin-top: 0rem;
+  }
+  .spacebottom0-xs {
+    margin-bottom: 0rem;
+  }
+  .spaceright0-xs {
+    margin-right: 0rem;
+  }
+  .spaceleft0-xs {
+    margin-left: 0rem;
+  }
+  .spacer0-xs {
+    padding: 0rem 0;
+  }
+  .padding0-xs {
+    padding: 0rem;
+  }
+  .paddingside0-xs {
+    padding: 0 0rem;
+  }
+  .paddingtop0-xs {
+    padding-top: 0rem;
+  }
+  .paddingbottom0-xs {
+    padding-bottom: 0rem;
+  }
+  .paddingright0-xs {
+    padding-right: 0rem;
+  }
+  .paddingleft0-xs {
+    padding-left: 0rem;
+  }
+  .spacetop1-xs {
+    margin-top: 1rem;
+  }
+  .spacebottom1-xs {
+    margin-bottom: 1rem;
+  }
+  .spaceright1-xs {
+    margin-right: 1rem;
+  }
+  .spaceleft1-xs {
+    margin-left: 1rem;
+  }
+  .spacer1-xs {
+    padding: 1rem 0;
+  }
+  .padding1-xs {
+    padding: 1rem;
+  }
+  .paddingside1-xs {
+    padding: 0 1rem;
+  }
+  .paddingtop1-xs {
+    padding-top: 1rem;
+  }
+  .paddingbottom1-xs {
+    padding-bottom: 1rem;
+  }
+  .paddingright1-xs {
+    padding-right: 1rem;
+  }
+  .paddingleft1-xs {
+    padding-left: 1rem;
+  }
+  .spacetop2-xs {
+    margin-top: 2rem;
+  }
+  .spacebottom2-xs {
+    margin-bottom: 2rem;
+  }
+  .spaceright2-xs {
+    margin-right: 2rem;
+  }
+  .spaceleft2-xs {
+    margin-left: 2rem;
+  }
+  .spacer2-xs {
+    padding: 2rem 0;
+  }
+  .padding2-xs {
+    padding: 2rem;
+  }
+  .paddingside2-xs {
+    padding: 0 2rem;
+  }
+  .paddingtop2-xs {
+    padding-top: 2rem;
+  }
+  .paddingbottom2-xs {
+    padding-bottom: 2rem;
+  }
+  .paddingright2-xs {
+    padding-right: 2rem;
+  }
+  .paddingleft2-xs {
+    padding-left: 2rem;
+  }
+  .spacetop3-xs {
+    margin-top: 3rem;
+  }
+  .spacebottom3-xs {
+    margin-bottom: 3rem;
+  }
+  .spaceright3-xs {
+    margin-right: 3rem;
+  }
+  .spaceleft3-xs {
+    margin-left: 3rem;
+  }
+  .spacer3-xs {
+    padding: 3rem 0;
+  }
+  .padding3-xs {
+    padding: 3rem;
+  }
+  .paddingside3-xs {
+    padding: 0 3rem;
+  }
+  .paddingtop3-xs {
+    padding-top: 3rem;
+  }
+  .paddingbottom3-xs {
+    padding-bottom: 3rem;
+  }
+  .paddingright3-xs {
+    padding-right: 3rem;
+  }
+  .paddingleft3-xs {
+    padding-left: 3rem;
+  }
+  .spacetop4-xs {
+    margin-top: 4rem;
+  }
+  .spacebottom4-xs {
+    margin-bottom: 4rem;
+  }
+  .spaceright4-xs {
+    margin-right: 4rem;
+  }
+  .spaceleft4-xs {
+    margin-left: 4rem;
+  }
+  .spacer4-xs {
+    padding: 4rem 0;
+  }
+  .padding4-xs {
+    padding: 4rem;
+  }
+  .paddingside4-xs {
+    padding: 0 4rem;
+  }
+  .paddingtop4-xs {
+    padding-top: 4rem;
+  }
+  .paddingbottom4-xs {
+    padding-bottom: 4rem;
+  }
+  .paddingright4-xs {
+    padding-right: 4rem;
+  }
+  .paddingleft4-xs {
+    padding-left: 4rem;
+  }
+  .spacetop5-xs {
+    margin-top: 5rem;
+  }
+  .spacebottom5-xs {
+    margin-bottom: 5rem;
+  }
+  .spaceright5-xs {
+    margin-right: 5rem;
+  }
+  .spaceleft5-xs {
+    margin-left: 5rem;
+  }
+  .spacer5-xs {
+    padding: 5rem 0;
+  }
+  .padding5-xs {
+    padding: 5rem;
+  }
+  .paddingside5-xs {
+    padding: 0 5rem;
+  }
+  .paddingtop5-xs {
+    padding-top: 5rem;
+  }
+  .paddingbottom5-xs {
+    padding-bottom: 5rem;
+  }
+  .paddingright5-xs {
+    padding-right: 5rem;
+  }
+  .paddingleft5-xs {
+    padding-left: 5rem;
+  }
+  .spacetop6-xs {
+    margin-top: 6rem;
+  }
+  .spacebottom6-xs {
+    margin-bottom: 6rem;
+  }
+  .spaceright6-xs {
+    margin-right: 6rem;
+  }
+  .spaceleft6-xs {
+    margin-left: 6rem;
+  }
+  .spacer6-xs {
+    padding: 6rem 0;
+  }
+  .padding6-xs {
+    padding: 6rem;
+  }
+  .paddingside6-xs {
+    padding: 0 6rem;
+  }
+  .paddingtop6-xs {
+    padding-top: 6rem;
+  }
+  .paddingbottom6-xs {
+    padding-bottom: 6rem;
+  }
+  .paddingright6-xs {
+    padding-right: 6rem;
+  }
+  .paddingleft6-xs {
+    padding-left: 6rem;
+  }
+  .spacetop7-xs {
+    margin-top: 7rem;
+  }
+  .spacebottom7-xs {
+    margin-bottom: 7rem;
+  }
+  .spaceright7-xs {
+    margin-right: 7rem;
+  }
+  .spaceleft7-xs {
+    margin-left: 7rem;
+  }
+  .spacer7-xs {
+    padding: 7rem 0;
+  }
+  .padding7-xs {
+    padding: 7rem;
+  }
+  .paddingside7-xs {
+    padding: 0 7rem;
+  }
+  .paddingtop7-xs {
+    padding-top: 7rem;
+  }
+  .paddingbottom7-xs {
+    padding-bottom: 7rem;
+  }
+  .paddingright7-xs {
+    padding-right: 7rem;
+  }
+  .paddingleft7-xs {
+    padding-left: 7rem;
+  }
+  .spacetop8-xs {
+    margin-top: 8rem;
+  }
+  .spacebottom8-xs {
+    margin-bottom: 8rem;
+  }
+  .spaceright8-xs {
+    margin-right: 8rem;
+  }
+  .spaceleft8-xs {
+    margin-left: 8rem;
+  }
+  .spacer8-xs {
+    padding: 8rem 0;
+  }
+  .padding8-xs {
+    padding: 8rem;
+  }
+  .paddingside8-xs {
+    padding: 0 8rem;
+  }
+  .paddingtop8-xs {
+    padding-top: 8rem;
+  }
+  .paddingbottom8-xs {
+    padding-bottom: 8rem;
+  }
+  .paddingright8-xs {
+    padding-right: 8rem;
+  }
+  .paddingleft8-xs {
+    padding-left: 8rem;
+  }
+  .spacetop9-xs {
+    margin-top: 9rem;
+  }
+  .spacebottom9-xs {
+    margin-bottom: 9rem;
+  }
+  .spaceright9-xs {
+    margin-right: 9rem;
+  }
+  .spaceleft9-xs {
+    margin-left: 9rem;
+  }
+  .spacer9-xs {
+    padding: 9rem 0;
+  }
+  .padding9-xs {
+    padding: 9rem;
+  }
+  .paddingside9-xs {
+    padding: 0 9rem;
+  }
+  .paddingtop9-xs {
+    padding-top: 9rem;
+  }
+  .paddingbottom9-xs {
+    padding-bottom: 9rem;
+  }
+  .paddingright9-xs {
+    padding-right: 9rem;
+  }
+  .paddingleft9-xs {
+    padding-left: 9rem;
+  }
+  .spacetop10-xs {
+    margin-top: 10rem;
+  }
+  .spacebottom10-xs {
+    margin-bottom: 10rem;
+  }
+  .spaceright10-xs {
+    margin-right: 10rem;
+  }
+  .spaceleft10-xs {
+    margin-left: 10rem;
+  }
+  .spacer10-xs {
+    padding: 10rem 0;
+  }
+  .padding10-xs {
+    padding: 10rem;
+  }
+  .paddingside10-xs {
+    padding: 0 10rem;
+  }
+  .paddingtop10-xs {
+    padding-top: 10rem;
+  }
+  .paddingbottom10-xs {
+    padding-bottom: 10rem;
+  }
+  .paddingright10-xs {
+    padding-right: 10rem;
+  }
+  .paddingleft10-xs {
+    padding-left: 10rem;
+  }
+  .spacetop11-xs {
+    margin-top: 11rem;
+  }
+  .spacebottom11-xs {
+    margin-bottom: 11rem;
+  }
+  .spaceright11-xs {
+    margin-right: 11rem;
+  }
+  .spaceleft11-xs {
+    margin-left: 11rem;
+  }
+  .spacer11-xs {
+    padding: 11rem 0;
+  }
+  .padding11-xs {
+    padding: 11rem;
+  }
+  .paddingside11-xs {
+    padding: 0 11rem;
+  }
+  .paddingtop11-xs {
+    padding-top: 11rem;
+  }
+  .paddingbottom11-xs {
+    padding-bottom: 11rem;
+  }
+  .paddingright11-xs {
+    padding-right: 11rem;
+  }
+  .paddingleft11-xs {
+    padding-left: 11rem;
+  }
+  .spacetop12-xs {
+    margin-top: 12rem;
+  }
+  .spacebottom12-xs {
+    margin-bottom: 12rem;
+  }
+  .spaceright12-xs {
+    margin-right: 12rem;
+  }
+  .spaceleft12-xs {
+    margin-left: 12rem;
+  }
+  .spacer12-xs {
+    padding: 12rem 0;
+  }
+  .padding12-xs {
+    padding: 12rem;
+  }
+  .paddingside12-xs {
+    padding: 0 12rem;
+  }
+  .paddingtop12-xs {
+    padding-top: 12rem;
+  }
+  .paddingbottom12-xs {
+    padding-bottom: 12rem;
+  }
+  .paddingright12-xs {
+    padding-right: 12rem;
+  }
+  .paddingleft12-xs {
+    padding-left: 12rem;
+  }
+  .spacetop13-xs {
+    margin-top: 13rem;
+  }
+  .spacebottom13-xs {
+    margin-bottom: 13rem;
+  }
+  .spaceright13-xs {
+    margin-right: 13rem;
+  }
+  .spaceleft13-xs {
+    margin-left: 13rem;
+  }
+  .spacer13-xs {
+    padding: 13rem 0;
+  }
+  .padding13-xs {
+    padding: 13rem;
+  }
+  .paddingside13-xs {
+    padding: 0 13rem;
+  }
+  .paddingtop13-xs {
+    padding-top: 13rem;
+  }
+  .paddingbottom13-xs {
+    padding-bottom: 13rem;
+  }
+  .paddingright13-xs {
+    padding-right: 13rem;
+  }
+  .paddingleft13-xs {
+    padding-left: 13rem;
+  }
+  .spacetop14-xs {
+    margin-top: 14rem;
+  }
+  .spacebottom14-xs {
+    margin-bottom: 14rem;
+  }
+  .spaceright14-xs {
+    margin-right: 14rem;
+  }
+  .spaceleft14-xs {
+    margin-left: 14rem;
+  }
+  .spacer14-xs {
+    padding: 14rem 0;
+  }
+  .padding14-xs {
+    padding: 14rem;
+  }
+  .paddingside14-xs {
+    padding: 0 14rem;
+  }
+  .paddingtop14-xs {
+    padding-top: 14rem;
+  }
+  .paddingbottom14-xs {
+    padding-bottom: 14rem;
+  }
+  .paddingright14-xs {
+    padding-right: 14rem;
+  }
+  .paddingleft14-xs {
+    padding-left: 14rem;
+  }
+  .spacetop15-xs {
+    margin-top: 15rem;
+  }
+  .spacebottom15-xs {
+    margin-bottom: 15rem;
+  }
+  .spaceright15-xs {
+    margin-right: 15rem;
+  }
+  .spaceleft15-xs {
+    margin-left: 15rem;
+  }
+  .spacer15-xs {
+    padding: 15rem 0;
+  }
+  .padding15-xs {
+    padding: 15rem;
+  }
+  .paddingside15-xs {
+    padding: 0 15rem;
+  }
+  .paddingtop15-xs {
+    padding-top: 15rem;
+  }
+  .paddingbottom15-xs {
+    padding-bottom: 15rem;
+  }
+  .paddingright15-xs {
+    padding-right: 15rem;
+  }
+  .paddingleft15-xs {
+    padding-left: 15rem;
+  }
+}
+.img-responsive {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.width1 {
+  width: 1rem;
+}
+
+.height1 {
+  height: 1rem;
+}
+
+.width2 {
+  width: 2rem;
+}
+
+.height2 {
+  height: 2rem;
+}
+
+.width3 {
+  width: 3rem;
+}
+
+.height3 {
+  height: 3rem;
+}
+
+.width4 {
+  width: 4rem;
+}
+
+.height4 {
+  height: 4rem;
+}
+
+.width5 {
+  width: 5rem;
+}
+
+.height5 {
+  height: 5rem;
+}
+
+.width6 {
+  width: 6rem;
+}
+
+.height6 {
+  height: 6rem;
+}
+
+.width7 {
+  width: 7rem;
+}
+
+.height7 {
+  height: 7rem;
+}
+
+.width8 {
+  width: 8rem;
+}
+
+.height8 {
+  height: 8rem;
+}
+
+.width9 {
+  width: 9rem;
+}
+
+.height9 {
+  height: 9rem;
+}
+
+.width10 {
+  width: 10rem;
+}
+
+.height10 {
+  height: 10rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .img-responsive-md {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media screen and (max-width: 414px) {
+  .img-responsive-xs {
+    width: 40%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+.btn {
+  padding: 1rem 2rem;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+  border-radius: 10rem;
+}
+.btn:hover {
+  transform: scale(1.2);
+}
+
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+}
+
+.border {
+  border: 1px solid white;
+}
+.bor-top {
+  border-top: 1px solid white;
+}
+.bor-bottom {
+  border-bottom: 1px solid white;
+}
+
+.bg-image {
+  background-image: url(/img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image2 {
+  background-image: url(/img/background2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-darkblue {
+  background: linear-gradient(113.49deg, #984D38 -30.3%, #181E41 58.12%);
+}
+
+.bg-orange {
+  background: linear-gradient(214.02deg, #EA5F5F 6.04%, #EEAA55 92.95%);
+}
+
+.bg-lightorange {
+  background: #EB7B5B;
+}
+
+.bg-halfblack {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.lightorange {
+  color: #EB7B5B;
+}
+
+.black {
+  color: black;
+}
+
+.white {
+  color: white;
+}
+
+.halfwhite {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.halfblack {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.quarterwhite {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+header {
+  padding: 1.5rem 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+header .navbar a {
+  color: white;
+  padding: 10px 20px;
+}
+header .navbar a:hover {
+  background: white;
+  color: #EB7B5B;
+}
+header .navbar .button {
+  background: linear-gradient(214.02deg, #EA5F5F 6.04%, #EEAA55 92.95%);
+  border-radius: 30px;
+}
+header .navbar .button:hover {
+  background: none;
+  border: 1px solid #EB7B5B;
+  color: #EB7B5B;
+}
+
+#burger {
+  display: none;
+}
+
 /* Global */
 html {
   height: 100%;
@@ -29,7 +3351,105 @@ body {
   alt: "This is my website.";
   white-space: break-spaces;
   will-change: content;
-  animation: typed-0 14.19s linear 1s 2 forwards, typed-0-final 0.95s linear 29.38s 1 forwards;
+  -webkit-animation: typed-0 14.19s linear 1s 2 forwards, typed-0-final 0.95s linear 29.38s 1 forwards;
+          animation: typed-0 14.19s linear 1s 2 forwards, typed-0-final 0.95s linear 29.38s 1 forwards;
+}
+@-webkit-keyframes typed-0-final {
+  0%, 5.2631578947% {
+    content: "​T";
+    content: "​T"/"This is my website.";
+    alt: "This is my website.";
+  }
+  5.2641578947%, 10.5263157895% {
+    content: "​Th";
+    content: "​Th"/"This is my website.";
+    alt: "This is my website.";
+  }
+  10.5273157895%, 15.7894736842% {
+    content: "​Thi";
+    content: "​Thi"/"This is my website.";
+    alt: "This is my website.";
+  }
+  15.7904736842%, 21.0526315789% {
+    content: "​This";
+    content: "​This"/"This is my website.";
+    alt: "This is my website.";
+  }
+  21.0536315789%, 26.3157894737% {
+    content: "​This ";
+    content: "​This "/"This is my website.";
+    alt: "This is my website.";
+  }
+  26.3167894737%, 31.5789473684% {
+    content: "​This i";
+    content: "​This i"/"This is my website.";
+    alt: "This is my website.";
+  }
+  31.5799473684%, 36.8421052632% {
+    content: "​This is";
+    content: "​This is"/"This is my website.";
+    alt: "This is my website.";
+  }
+  36.8431052632%, 42.1052631579% {
+    content: "​This is ";
+    content: "​This is "/"This is my website.";
+    alt: "This is my website.";
+  }
+  42.1062631579%, 47.3684210526% {
+    content: "​This is m";
+    content: "​This is m"/"This is my website.";
+    alt: "This is my website.";
+  }
+  47.3694210526%, 52.6315789474% {
+    content: "​This is my";
+    content: "​This is my"/"This is my website.";
+    alt: "This is my website.";
+  }
+  52.6325789474%, 57.8947368421% {
+    content: "​This is my ";
+    content: "​This is my "/"This is my website.";
+    alt: "This is my website.";
+  }
+  57.8957368421%, 63.1578947368% {
+    content: "​This is my w";
+    content: "​This is my w"/"This is my website.";
+    alt: "This is my website.";
+  }
+  63.1588947368%, 68.4210526316% {
+    content: "​This is my we";
+    content: "​This is my we"/"This is my website.";
+    alt: "This is my website.";
+  }
+  68.4220526316%, 73.6842105263% {
+    content: "​This is my web";
+    content: "​This is my web"/"This is my website.";
+    alt: "This is my website.";
+  }
+  73.6852105263%, 78.9473684211% {
+    content: "​This is my webs";
+    content: "​This is my webs"/"This is my website.";
+    alt: "This is my website.";
+  }
+  78.9483684211%, 84.2105263158% {
+    content: "​This is my websi";
+    content: "​This is my websi"/"This is my website.";
+    alt: "This is my website.";
+  }
+  84.2115263158%, 89.4736842105% {
+    content: "​This is my websit";
+    content: "​This is my websit"/"This is my website.";
+    alt: "This is my website.";
+  }
+  89.4746842105%, 94.7368421053% {
+    content: "​This is my website";
+    content: "​This is my website"/"This is my website.";
+    alt: "This is my website.";
+  }
+  94.7378421053%, 100% {
+    content: "​This is my website.";
+    content: "​This is my website."/"This is my website.";
+    alt: "This is my website.";
+  }
 }
 @keyframes typed-0-final {
   0%, 5.2631578947% {
@@ -135,7 +3555,1648 @@ body {
   padding-right: 0.1ch;
   border-right: 2px solid currentColor;
   white-space: nowrap;
-  animation: typed-0-caret 0.75s linear 1s infinite forwards;
+  -webkit-animation: typed-0-caret 0.75s linear 1s infinite forwards;
+          animation: typed-0-caret 0.75s linear 1s infinite forwards;
+}
+@-webkit-keyframes typed-0 {
+  0%, 0.3513608175% {
+    content: "​T";
+    content: "​T"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  0.3523608175%, 0.703721635% {
+    content: "​Th";
+    content: "​Th"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  0.704721635%, 1.0560824524% {
+    content: "​Thi";
+    content: "​Thi"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  1.0570824524%, 1.4084432699% {
+    content: "​This";
+    content: "​This"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  1.4094432699%, 1.7608040874% {
+    content: "​This ";
+    content: "​This "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  1.7618040874%, 2.1131649049% {
+    content: "​This i";
+    content: "​This i"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  2.1141649049%, 2.4655257223% {
+    content: "​This is";
+    content: "​This is"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  2.4665257223%, 2.8178865398% {
+    content: "​This is ";
+    content: "​This is "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  2.8188865398%, 3.1702473573% {
+    content: "​This is m";
+    content: "​This is m"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  3.1712473573%, 3.5226081748% {
+    content: "​This is my";
+    content: "​This is my"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  3.5236081748%, 3.8749689922% {
+    content: "​This is my ";
+    content: "​This is my "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  3.8759689922%, 4.2273298097% {
+    content: "​This is my w";
+    content: "​This is my w"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  4.2283298097%, 4.5796906272% {
+    content: "​This is my we";
+    content: "​This is my we"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  4.5806906272%, 4.9320514447% {
+    content: "​This is my web";
+    content: "​This is my web"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  4.9330514447%, 5.2844122622% {
+    content: "​This is my webs";
+    content: "​This is my webs"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  5.2854122622%, 5.6367730796% {
+    content: "​This is my websi";
+    content: "​This is my websi"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  5.6377730796%, 5.9891338971% {
+    content: "​This is my websit";
+    content: "​This is my websit"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  5.9901338971%, 6.3414947146% {
+    content: "​This is my website";
+    content: "​This is my website"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  6.3424947146%, 14.0229605356% {
+    content: "​This is my website.";
+    content: "​This is my website."/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  14.0239605356%, 14.3048491896% {
+    content: "​This is my website";
+    content: "​This is my website"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  14.3058491896%, 14.5867378436% {
+    content: "​This is my websit";
+    content: "​This is my websit"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  14.5877378436%, 14.8686264975% {
+    content: "​This is my websi";
+    content: "​This is my websi"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  14.8696264975%, 15.1505151515% {
+    content: "​This is my webs";
+    content: "​This is my webs"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  15.1515151515%, 15.4324038055% {
+    content: "​This is my web";
+    content: "​This is my web"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  15.4334038055%, 15.7142924595% {
+    content: "​This is my we";
+    content: "​This is my we"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  15.7152924595%, 15.9961811135% {
+    content: "​This is my w";
+    content: "​This is my w"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  15.9971811135%, 16.2780697674% {
+    content: "​This is my ";
+    content: "​This is my "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  16.2790697674%, 16.5599584214% {
+    content: "​This is my";
+    content: "​This is my"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  16.5609584214%, 16.8418470754% {
+    content: "​This is m";
+    content: "​This is m"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  16.8428470754%, 17.1237357294% {
+    content: "​This is ";
+    content: "​This is "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  17.1247357294%, 17.4056243834% {
+    content: "​This is";
+    content: "​This is"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  17.4066243834%, 17.6875130374% {
+    content: "​This i";
+    content: "​This i"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  17.6885130374%, 17.9694016913% {
+    content: "​This ";
+    content: "​This "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  17.9704016913%, 18.2512903453% {
+    content: "​This";
+    content: "​This"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  18.2522903453%, 18.5331789993% {
+    content: "​Thi";
+    content: "​Thi"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  18.5341789993%, 18.8150676533% {
+    content: "​Th";
+    content: "​Th"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  18.8160676533%, 19.0969563073% {
+    content: "​T";
+    content: "​T"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  19.0979563073%, 22.620564482% {
+    content: "​";
+    content: "​"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  22.621564482%, 22.9729252995% {
+    content: "​T";
+    content: "​T"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  22.9739252995%, 23.325286117% {
+    content: "​Th";
+    content: "​Th"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  23.326286117%, 23.6776469345% {
+    content: "​The";
+    content: "​The"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  23.6786469345%, 24.0300077519% {
+    content: "​Thes";
+    content: "​Thes"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  24.0310077519%, 24.3823685694% {
+    content: "​These";
+    content: "​These"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  24.3833685694%, 24.7347293869% {
+    content: "​These ";
+    content: "​These "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  24.7357293869%, 25.0870902044% {
+    content: "​These a";
+    content: "​These a"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  25.0880902044%, 25.4394510218% {
+    content: "​These ar";
+    content: "​These ar"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  25.4404510218%, 25.7918118393% {
+    content: "​These are";
+    content: "​These are"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  25.7928118393%, 26.1441726568% {
+    content: "​These are ";
+    content: "​These are "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  26.1451726568%, 26.4965334743% {
+    content: "​These are m";
+    content: "​These are m"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  26.4975334743%, 26.8488942918% {
+    content: "​These are my";
+    content: "​These are my"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  26.8498942918%, 27.2012551092% {
+    content: "​These are my ";
+    content: "​These are my "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  27.2022551092%, 27.5536159267% {
+    content: "​These are my p";
+    content: "​These are my p"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  27.5546159267%, 27.9059767442% {
+    content: "​These are my pa";
+    content: "​These are my pa"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  27.9069767442%, 28.2583375617% {
+    content: "​These are my pas";
+    content: "​These are my pas"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  28.2593375617%, 28.6106983791% {
+    content: "​These are my pass";
+    content: "​These are my pass"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  28.6116983791%, 28.9630591966% {
+    content: "​These are my passi";
+    content: "​These are my passi"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  28.9640591966%, 29.3154200141% {
+    content: "​These are my passio";
+    content: "​These are my passio"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  29.3164200141%, 29.6677808316% {
+    content: "​These are my passion";
+    content: "​These are my passion"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  29.6687808316%, 30.020141649% {
+    content: "​These are my passions";
+    content: "​These are my passions"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  30.021141649%, 37.70160747% {
+    content: "​These are my passions.";
+    content: "​These are my passions."/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  37.70260747%, 37.983496124% {
+    content: "​These are my passions";
+    content: "​These are my passions"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  37.984496124%, 38.265384778% {
+    content: "​These are my passion";
+    content: "​These are my passion"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  38.266384778%, 38.547273432% {
+    content: "​These are my passio";
+    content: "​These are my passio"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  38.548273432%, 38.829162086% {
+    content: "​These are my passi";
+    content: "​These are my passi"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  38.830162086%, 39.11105074% {
+    content: "​These are my pass";
+    content: "​These are my pass"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  39.11205074%, 39.3929393939% {
+    content: "​These are my pas";
+    content: "​These are my pas"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  39.3939393939%, 39.6748280479% {
+    content: "​These are my pa";
+    content: "​These are my pa"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  39.6758280479%, 39.9567167019% {
+    content: "​These are my p";
+    content: "​These are my p"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  39.9577167019%, 40.2386053559% {
+    content: "​These are my ";
+    content: "​These are my "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  40.2396053559%, 40.5204940099% {
+    content: "​These are my";
+    content: "​These are my"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  40.5214940099%, 40.8023826638% {
+    content: "​These are m";
+    content: "​These are m"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  40.8033826638%, 41.0842713178% {
+    content: "​These are ";
+    content: "​These are "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  41.0852713178%, 41.3661599718% {
+    content: "​These are";
+    content: "​These are"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  41.3671599718%, 41.6480486258% {
+    content: "​These ar";
+    content: "​These ar"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  41.6490486258%, 41.9299372798% {
+    content: "​These a";
+    content: "​These a"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  41.9309372798%, 42.2118259338% {
+    content: "​These ";
+    content: "​These "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  42.2128259338%, 42.4937145877% {
+    content: "​These";
+    content: "​These"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  42.4947145877%, 42.7756032417% {
+    content: "​Thes";
+    content: "​Thes"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  42.7766032417%, 43.0574918957% {
+    content: "​The";
+    content: "​The"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  43.0584918957%, 43.3393805497% {
+    content: "​Th";
+    content: "​Th"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  43.3403805497%, 43.6212692037% {
+    content: "​T";
+    content: "​T"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  43.6222692037%, 47.1448773784% {
+    content: "​";
+    content: "​"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  47.1458773784%, 47.4972381959% {
+    content: "​T";
+    content: "​T"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  47.4982381959%, 47.8495990134% {
+    content: "​Th";
+    content: "​Th"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  47.8505990134%, 48.2019598309% {
+    content: "​Thi";
+    content: "​Thi"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  48.2029598309%, 48.5543206483% {
+    content: "​This";
+    content: "​This"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  48.5553206483%, 48.9066814658% {
+    content: "​This ";
+    content: "​This "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  48.9076814658%, 49.2590422833% {
+    content: "​This i";
+    content: "​This i"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  49.2600422833%, 49.6114031008% {
+    content: "​This is";
+    content: "​This is"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  49.6124031008%, 49.9637639183% {
+    content: "​This is ";
+    content: "​This is "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  49.9647639183%, 50.3161247357% {
+    content: "​This is m";
+    content: "​This is m"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  50.3171247357%, 50.6684855532% {
+    content: "​This is my";
+    content: "​This is my"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  50.6694855532%, 51.0208463707% {
+    content: "​This is my ";
+    content: "​This is my "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  51.0218463707%, 51.3732071882% {
+    content: "​This is my c";
+    content: "​This is my c"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  51.3742071882%, 51.7255680056% {
+    content: "​This is my ca";
+    content: "​This is my ca"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  51.7265680056%, 52.0779288231% {
+    content: "​This is my car";
+    content: "​This is my car"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  52.0789288231%, 52.4302896406% {
+    content: "​This is my care";
+    content: "​This is my care"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  52.4312896406%, 52.7826504581% {
+    content: "​This is my caree";
+    content: "​This is my caree"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  52.7836504581%, 53.1350112755% {
+    content: "​This is my career";
+    content: "​This is my career"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  53.1360112755%, 53.487372093% {
+    content: "​This is my career ";
+    content: "​This is my career "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  53.488372093%, 53.8397329105% {
+    content: "​This is my career j";
+    content: "​This is my career j"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  53.8407329105%, 54.192093728% {
+    content: "​This is my career jo";
+    content: "​This is my career jo"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  54.193093728%, 54.5444545455% {
+    content: "​This is my career jou";
+    content: "​This is my career jou"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  54.5454545455%, 54.8968153629% {
+    content: "​This is my career jour";
+    content: "​This is my career jour"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  54.8978153629%, 55.2491761804% {
+    content: "​This is my career journ";
+    content: "​This is my career journ"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  55.2501761804%, 55.6015369979% {
+    content: "​This is my career journe";
+    content: "​This is my career journe"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  55.6025369979%, 55.9538978154% {
+    content: "​This is my career journey";
+    content: "​This is my career journey"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  55.9548978154%, 63.6353636364% {
+    content: "​This is my career journey.";
+    content: "​This is my career journey."/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  63.6363636364%, 63.9172522903% {
+    content: "​This is my career journey";
+    content: "​This is my career journey"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  63.9182522903%, 64.1991409443% {
+    content: "​This is my career journe";
+    content: "​This is my career journe"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  64.2001409443%, 64.4810295983% {
+    content: "​This is my career journ";
+    content: "​This is my career journ"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  64.4820295983%, 64.7629182523% {
+    content: "​This is my career jour";
+    content: "​This is my career jour"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  64.7639182523%, 65.0448069063% {
+    content: "​This is my career jou";
+    content: "​This is my career jou"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  65.0458069063%, 65.3266955603% {
+    content: "​This is my career jo";
+    content: "​This is my career jo"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  65.3276955603%, 65.6085842142% {
+    content: "​This is my career j";
+    content: "​This is my career j"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  65.6095842142%, 65.8904728682% {
+    content: "​This is my career ";
+    content: "​This is my career "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  65.8914728682%, 66.1723615222% {
+    content: "​This is my career";
+    content: "​This is my career"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  66.1733615222%, 66.4542501762% {
+    content: "​This is my caree";
+    content: "​This is my caree"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  66.4552501762%, 66.7361388302% {
+    content: "​This is my care";
+    content: "​This is my care"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  66.7371388302%, 67.0180274841% {
+    content: "​This is my car";
+    content: "​This is my car"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  67.0190274841%, 67.2999161381% {
+    content: "​This is my ca";
+    content: "​This is my ca"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  67.3009161381%, 67.5818047921% {
+    content: "​This is my c";
+    content: "​This is my c"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  67.5828047921%, 67.8636934461% {
+    content: "​This is my ";
+    content: "​This is my "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  67.8646934461%, 68.1455821001% {
+    content: "​This is my";
+    content: "​This is my"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  68.1465821001%, 68.4274707541% {
+    content: "​This is m";
+    content: "​This is m"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  68.4284707541%, 68.709359408% {
+    content: "​This is ";
+    content: "​This is "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  68.710359408%, 68.991248062% {
+    content: "​This is";
+    content: "​This is"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  68.992248062%, 69.273136716% {
+    content: "​This i";
+    content: "​This i"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  69.274136716%, 69.55502537% {
+    content: "​This ";
+    content: "​This "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  69.55602537%, 69.836914024% {
+    content: "​This";
+    content: "​This"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  69.837914024%, 70.1188026779% {
+    content: "​Thi";
+    content: "​Thi"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  70.1198026779%, 70.4006913319% {
+    content: "​Th";
+    content: "​Th"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  70.4016913319%, 70.6825799859% {
+    content: "​T";
+    content: "​T"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  70.6835799859%, 74.2061881607% {
+    content: "​";
+    content: "​"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  74.2071881607%, 74.5585489782% {
+    content: "​T";
+    content: "​T"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  74.5595489782%, 74.9109097956% {
+    content: "​Th";
+    content: "​Th"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  74.9119097956%, 75.2632706131% {
+    content: "​The";
+    content: "​The"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  75.2642706131%, 75.6156314306% {
+    content: "​Thes";
+    content: "​Thes"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  75.6166314306%, 75.9679922481% {
+    content: "​These";
+    content: "​These"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  75.9689922481%, 76.3203530655% {
+    content: "​These ";
+    content: "​These "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  76.3213530655%, 76.672713883% {
+    content: "​These a";
+    content: "​These a"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  76.673713883%, 77.0250747005% {
+    content: "​These ar";
+    content: "​These ar"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  77.0260747005%, 77.377435518% {
+    content: "​These are";
+    content: "​These are"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  77.378435518%, 77.7297963354% {
+    content: "​These are ";
+    content: "​These are "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  77.7307963354%, 78.0821571529% {
+    content: "​These are m";
+    content: "​These are m"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  78.0831571529%, 78.4345179704% {
+    content: "​These are my";
+    content: "​These are my"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  78.4355179704%, 78.7868787879% {
+    content: "​These are my ";
+    content: "​These are my "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  78.7878787879%, 79.1392396054% {
+    content: "​These are my a";
+    content: "​These are my a"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  79.1402396054%, 79.4916004228% {
+    content: "​These are my ad";
+    content: "​These are my ad"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  79.4926004228%, 79.8439612403% {
+    content: "​These are my adv";
+    content: "​These are my adv"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  79.8449612403%, 80.1963220578% {
+    content: "​These are my adve";
+    content: "​These are my adve"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  80.1973220578%, 80.5486828753% {
+    content: "​These are my adven";
+    content: "​These are my adven"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  80.5496828753%, 80.9010436927% {
+    content: "​These are my advent";
+    content: "​These are my advent"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  80.9020436927%, 81.2534045102% {
+    content: "​These are my adventu";
+    content: "​These are my adventu"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  81.2544045102%, 81.6057653277% {
+    content: "​These are my adventur";
+    content: "​These are my adventur"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  81.6067653277%, 81.9581261452% {
+    content: "​These are my adventure";
+    content: "​These are my adventure"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  81.9591261452%, 82.3104869626% {
+    content: "​These are my adventures";
+    content: "​These are my adventures"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  82.3114869626%, 89.9919527837% {
+    content: "​These are my adventures.";
+    content: "​These are my adventures."/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  89.9929527837%, 90.2738414376% {
+    content: "​These are my adventures";
+    content: "​These are my adventures"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  90.2748414376%, 90.5557300916% {
+    content: "​These are my adventure";
+    content: "​These are my adventure"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  90.5567300916%, 90.8376187456% {
+    content: "​These are my adventur";
+    content: "​These are my adventur"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  90.8386187456%, 91.1195073996% {
+    content: "​These are my adventu";
+    content: "​These are my adventu"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  91.1205073996%, 91.4013960536% {
+    content: "​These are my advent";
+    content: "​These are my advent"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  91.4023960536%, 91.6832847075% {
+    content: "​These are my adven";
+    content: "​These are my adven"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  91.6842847075%, 91.9651733615% {
+    content: "​These are my adve";
+    content: "​These are my adve"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  91.9661733615%, 92.2470620155% {
+    content: "​These are my adv";
+    content: "​These are my adv"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  92.2480620155%, 92.5289506695% {
+    content: "​These are my ad";
+    content: "​These are my ad"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  92.5299506695%, 92.8108393235% {
+    content: "​These are my a";
+    content: "​These are my a"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  92.8118393235%, 93.0927279774% {
+    content: "​These are my ";
+    content: "​These are my "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  93.0937279774%, 93.3746166314% {
+    content: "​These are my";
+    content: "​These are my"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  93.3756166314%, 93.6565052854% {
+    content: "​These are m";
+    content: "​These are m"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  93.6575052854%, 93.9383939394% {
+    content: "​These are ";
+    content: "​These are "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  93.9393939394%, 94.2202825934% {
+    content: "​These are";
+    content: "​These are"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  94.2212825934%, 94.5021712474% {
+    content: "​These ar";
+    content: "​These ar"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  94.5031712474%, 94.7840599013% {
+    content: "​These a";
+    content: "​These a"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  94.7850599013%, 95.0659485553% {
+    content: "​These ";
+    content: "​These "/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  95.0669485553%, 95.3478372093% {
+    content: "​These";
+    content: "​These"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  95.3488372093%, 95.6297258633% {
+    content: "​Thes";
+    content: "​Thes"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  95.6307258633%, 95.9116145173% {
+    content: "​The";
+    content: "​The"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  95.9126145173%, 96.1935031712% {
+    content: "​Th";
+    content: "​Th"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  96.1945031712%, 96.4753918252% {
+    content: "​T";
+    content: "​T"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
+  96.4763918252%, 100% {
+    content: "​";
+    content: "​"/"This is my website.";
+    alt: "This is my website.";
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+    color: blueviolet;
+  }
 }
 @keyframes typed-0 {
   0%, 0.3513608175% {
@@ -1777,6 +6838,11 @@ body {
     color: blueviolet;
   }
 }
+@-webkit-keyframes typed-0-caret {
+  75% {
+    border-color: transparent;
+  }
+}
 @keyframes typed-0-caret {
   75% {
     border-color: transparent;
@@ -1811,6 +6877,4 @@ body {
 /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 102px;
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
