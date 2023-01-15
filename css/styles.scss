@@ -1,5 +1,15 @@
-@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+// @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 @import 'typed';
+@import "modules/color";
+@import "modules/general";
+@import "modules/grid";
+@import "modules/typo";
+@import "modules/spacer";
+@import "modules/image";
+@import "modules/button";
+@import "modules/shadow";
+@import "modules/border";
+@import "modules/color";
 
 // header
 header {
@@ -32,6 +42,10 @@ header {
             }
         }
     }
+}
+
+#burger {
+    display: none;
 }
 
 /* Global */
