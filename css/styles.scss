@@ -73,10 +73,13 @@ body {
 
 
 .website-intro {
-    @include typed(("This is my website.": (color: blueviolet),
+    color: white;
+    @include typed("Hi! My name is Judy Wang.", null, (iterations: 1, caret-width: 2px, end-on: "Hi! My name is Judy Wang."));
+
+    @include typed(("<[30]>This is my website.": (color: blueviolet),
             "These are my passions.": (color: blueviolet),
             "This is my career journey.": (color: blueviolet),
-            "These are my adventures.": (color: blueviolet)), 2, (iterations: 2, caret-width: 2px, end-on: "This is my website."));
+            "These are my adventures.": (color: blueviolet)), 2, (iterations: 1, caret-width: 2px, end-on: "This is my website."));
 
     &::before {
         font-weight: bold;
